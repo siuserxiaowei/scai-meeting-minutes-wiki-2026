@@ -1,0 +1,17 @@
+{
+  "title": "生财联合办公分享会 Wiki",
+  "description": "深圳与广州联合办公分享会会议纪要、资料链接、行动计划和金句墙。",
+  "subtitle": "把深圳约 20 场子页面纪要与广州 14 场活动资料，整理成可搜索、可复盘、可传播、可执行的专题站。",
+  "repo": "https://github.com/siuserxiaowei/scai-meeting-minutes-wiki-2026",
+  "pages_url": "https://siuserxiaowei.github.io/scai-meeting-minutes-wiki-2026/",
+  "shenzhen_wiki": "https://scailabs.feishu.cn/wiki/VswYwTzBwidqf8k5xZQcQAQTntG?from=from_copylink",
+  "guangzhou_wiki": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink",
+  "feishu_internal_doc": "https://vi8r050ecuz.feishu.cn/docx/ZWjLdfp5koixFkxWOdQcKirLndc",
+  "modules": {
+    "meeting_map": true,
+    "event_pages": true,
+    "action_dashboard": true,
+    "quote_wall": true,
+    "source_boundary": true
+  }
+}

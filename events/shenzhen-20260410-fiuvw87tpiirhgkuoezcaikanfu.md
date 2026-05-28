@@ -1,0 +1,310 @@
+---
+title: 20260410 | 志辉：ClaudeCode + Obsidian，搭建你的自动化内容创作系统
+type: events
+tags: ["AI", "AI编程", "内容营销"]
+updated: 2026-05-28
+---
+
+# 20260410 | 志辉：ClaudeCode + Obsidian，搭建你的自动化内容创作系统
+
+> **城市：**深圳  
+> **日期：**2026-04-10  
+> **嘉宾/分享人：**志辉  
+> **状态：**full  
+> **原始链接：**[https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu](https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu)
+
+## 一句话摘要
+
+分享围绕技术工具在内容创作和知识管理中的应用展开，分享了 Claude code、obsidian 等工具的使用经验和技巧，探讨了内容创作的流程和方法，以及如何获取和优化相关技能，内容如下： 资深技术背景：志辉拥有 10 年大数据架构经验，近年来专注于 AI 编程 Claude code 研究，还著有相关书籍，其推特通过自动化流程实现月入数百刀。 分享主题：本次分享聚焦内容创作，而非 AI 编程，旨在分享实操干货，包括如何将 Claude code 和 offsite 知识库结合搭建自动化工作流。 PPT 制作工具 ESCALI DRAW：一款开源的手绘风格 PPT 制作工具，使用简单，生成的 PPT 风格小清新。可通过该工具画图，并将图片导入 PPT 模板，还能利用 Claude code（CC）对图片进行修改和完善。
+
+## 主题标签
+
+AI、AI编程、内容营销
+
+## 智能章节
+
+- **00:11** [志辉分享内容创作及PPT制作AI应用干货](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=11000)：本章节是会议开场环节。说话人2介绍分享嘉宾志辉，称其有10年大数据架构经验，研究AI编程等，还能用自动化流程让推特月入数百刀。志辉开场后介绍此次不讲AI编程，讲内容创作，并分享PPT制作插曲，提到用ESCALI DRAW工具，还介绍利用CC修改图片、结合PPT模板快速做出高质量PPT的技巧。
+- **05:39** [Markdown基本知识、优势及对大模型的作用](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=339000)：本章节说话人3介绍了Markdown。称其是从航海案例中学来，认为在场人应都了解。Markdown是类似特殊TXT的普通文本文件，以点MD结尾。它火的原因一是对大模型友好，普通文本无需特殊插件读取；二是对人友好，基本电脑都能打开。此外，在排版上可加粗，能让大模型着重理解相关内容。
+- **07:24** [Obsidian介绍及其相比其他笔记软件的优势](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=444000)：本章节主要介绍了Obsidian，它可理解为高级资源管理器，用于管理Markdown，是本地管理文件的软件。其突然火起来的原因，一是避免因笔记软件停止维护或改变而迁移平台的痛点；二是本地操作Markdown更便捷，比飞书修改文档更高效；三是摆脱平台束缚，插件多且可本地开发调试。
+- **10:31** [Obsidian使用分享：插件功能、同步及收藏操作](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=631000)：本章节主要介绍了obsidian使用的相关内容。提到cloding插件及手机端的code pilot，可实现链接保存到OC；同步方式有icloud、Git等。还介绍了basis、每日笔记等插件，以及PC和手机端的检藏功能，如Web CLIP、微信检藏等，能将各类内容同步至obsidian，且可通过CC处理分类链接。
+- **26:27** [Claude模型使用、付费及知识管理工具分享](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1587000)：本章节主要围绕多个话题展开。提到合作未摆脱单一平台，Claude 模型在文字方面表现突出，介绍使用 Claude 模型的付费方式，如美区订阅、Google pay 等，还提及 IP 稳定性及不同付费渠道价格与售后情况。此外，强调玩好 scales 的重要性，讨论飞书、obsidian 等工具的使用，建议找到适合自己的方式。
+- **31:30** [Obsidian、Scrivener及Canvas应用与漫画创作](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1890000)：本章节主要介绍了Scrivener和obsidian相关内容，obsidian的CEO官方做了Scrivener，质量较可靠。还提到Jason canvas，可在OC里使用，能画有结构的图，如中国历史朝代图、广东地理分布图等，还能将其转成漫画。此外，介绍了宝玉，主要用于发公众号文章和内容创作，生图、生漫画质量较高。
+- **34:56** [小众工具使用体验及与CC对比优势](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2096000)：本章节说话人3介绍了一个小众工具，称去年10月开始使用，现薅不到羊毛，11千万TOKEN需13元。该工具的MIS模式已跑23小时，很费TOKEN。说话人分享个人体验，认为其编写好、交互友好，一进去是snap模式，操作模式顺畅，且one shot功能表现更好，还有目前其他编程工具没有的missing模式。
+- **37:44** [知识管理目录结构及相关功能工具介绍](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2264000)：本章节说话人3介绍admin相关内容，提及知识管理理论PARA，展示自己整理的目录结构，包括inbox（草稿箱）、项目录、日程活动、日记等。还介绍了记录提醒事项可与苹果日历等打通，以及记录家庭财务、付费产品等。此外，提到obsiding的CLI工具，能辅助做大脑图和处理tag，还演示了链接收藏功能。
+- **48:47** [Obsidian PC端收藏页面功能及使用介绍](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2927000)：本章节说话人3主要介绍了obsidian PC端的典藏页面，展示了para相关内容。提到该页面收藏功能可基本保存页面内容，还能进行翻译后简藏，收藏内容会统一放在目录，方便后续整理，本地保存无需联网搜索。此外还介绍了编号文件夹、模板、合集等，指出多用可积累素材用于内容创作，沉淀需巩固复习的内容。
+- **52:32** [内容创作平台及创作流程介绍](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3152000)：本章节主要围绕内容创作展开。介绍了可进行内容创作的平台，如公众号、推特、知识库等，小红书仅能做出图动作。提及输入数据来源包括PC端、语音记录、播客等。阐述选题不仅源于网络，还可来自个人记录，可通过特定方式提取风格。最后说明了阶段创作的流程，包括评审、排版发布等。
+- **55:02** [APP设想及多平台输入功能使用情况](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3302000)：本章节说话人3主要介绍了输入相关内容。他曾想做一个APP，可通过该APP与经理打交道，能处理语音、图片等事务，且可随意修改自己写的项目。目前先用电报的bot，手机端能搞定微信文章、推特链接、油管链接等，PC端基本也没问题。
+- **55:43** [多平台内容发布痛点与OBS写作工具探讨](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3343000)：本章节主要讨论了内容发布工具与写作软件。介绍了scale、宝玉等发布平台，提及推特操作复杂。还谈到飞书相关工具，如飞书CLI。讲述写作痛点及OBS的使用，对比OBS与Typora、tiber的写作体验，指出OBS写作不够丝滑。最后提到可在OBS创建多个仓库，可将文件夹添加到指定位置。
+- **01:04:46** [文章发布演示、技能运用及平台接入思路](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3886000)：本章节主要围绕文章发布演示展开。说话人3用含图、文字、表格和代码的文章演示，尝试发布到微信公众号和推特。介绍了文章配图、排版等情况，提及推特编辑器难用、不支持表格等问题。还分享养技能思路，强调技能原子化、封装解耦，便于调试和接入新平台，最后成功发布文章到两平台。
+- **01:17:22** [借助插件写文章及生成图片发布多平台分享](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=4642000)：本章节主要围绕写文章及发布展开。说话人3演示写文章，以“hamlets”等为主题，结合公域平台如小红书。介绍Claude code插件可利用Obsidian资料提高写作效率，还提及抽象出写作流程和风格能提升文章质量。此外，展示了调用skill根据文章生成小红书图片，不过插件存在不稳定情况。
+- **01:29:33** [播客内容生成、流程改造及电脑内存讨论](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5373000)：本章节主要讨论了内容创作与处理相关事宜。说话人3计划利用其他平台生成播客和视频，视频内容围绕飞书CLA的使用。还提到播客可将链接导入生成字幕、翻译成文字，关键在于找到“死掉词”。此外，展示了一个分topic的流程，该流程有固化流程和爆款采集，此流程是别人给说话人3的。最后还谈及电脑内存情况。
+- **01:32:30** [优质skills获取渠道、扒取方法及分析利用](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5550000)：本章节主要讨论了搜集优质 skills 的途径和方法。推荐从 Anthropic、Openai、verso 官方仓库获取，还可从死掉项目中扒取，如 Playground 项目等。强调这些来源的 skills 质量高且经过验证。同时介绍了扒取 code 的实操方法，包括让 AI 辅助查找目录等，还提及本地找 skills 的方式，最后将搜集的内容分类存放。
+- **01:46:03** [文章创作技巧、选题及工具使用讨论](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=6363000)：本章节围绕文章写作展开讨论。提及选题报告，推荐了“writer 中文爆款长文创作”。还谈到宝玉的 GitHub 是中文爆款文章资料来源，其推特、微博有相关内容。分享了写作模板、风格、技巧等，建议使用朴素 AI 化方式创作。此外，提到让写中国历史朝代歌，用 canvas 画图，创作流程较细且运行时间长。
+- **01:57:14** [小红书发布方式、内容处理及私下交易探讨](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7034000)：本章节主要讨论了小红书发布内容的相关问题。说话人3采用黑白风格，认为目前发布没好方法且平台管理严，想借鉴发推思路。对于操作方式，探讨了手机和电脑控制，提及投屏、文件传输等。还提到要改掉内容中的符号，内容评估和风格可能被平台识别，另外还提到私下交易，但具体情况需搜资料进一步了解。
+
+## 关键决策
+
+- 工具分享：分享人介绍了多种工具，如ESCALI DRAW用于制作PPT，Obsidian用于管理Markdown文件，Claude code用于文字工作和代码编写，以及宝玉等工具用于内容创作和生图。
+- 知识管理：介绍了基于PARA理论的知识管理结构，包括inbox（草稿箱）、项目目录、日程活动、日记等，可将各类信息整理到Obsidian中。
+- 内容创作流程：涵盖选题、创作、评审、排版发布等环节，可利用Claude code和Obsidian中的资料辅助创作，提高效率和质量。
+- 技能获取：推荐从Anthropic官方、Openai、verso等仓库获取优质技能，避免从网上随意寻找。
+- 平台发布：演示了在微信公众号、推特等平台发布文章的过程，并介绍了相关技巧和注意事项。
+
+## 行动项
+
+- **飞书知识库迁移**：飞书知识库迁移：不建议将飞书知识库内容一次性迁移到 Outlook 中，可先尝试少量迁移，熟悉操作后再逐步进行。
+
+## 金句摘录
+
+> 目前来说，在文字工作，包括内容创作、思路整理方面，Claude模型比其他模型要好很多。
+
+> 找一个低成本、能力强的工具去养技能，养完后再迁移到其他平台。
+
+> 将文档或对标文档放过来，进行简单抽取，是最朴素且效果最好的AI化方式。
+
+
+## 原始链接与资料
+
+- [00:11](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=11000) `feishu-minutes`
+- [05:39](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=339000) `feishu-minutes`
+- [07:24](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=444000) `feishu-minutes`
+- [10:31](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=631000) `feishu-minutes`
+- [26:27](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1587000) `feishu-minutes`
+- [31:30](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1890000) `feishu-minutes`
+- [34:56](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2096000) `feishu-minutes`
+- [37:44](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2264000) `feishu-minutes`
+- [48:47](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2927000) `feishu-minutes`
+- [52:32](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3152000) `feishu-minutes`
+- [55:02](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3302000) `feishu-minutes`
+- [55:43](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3343000) `feishu-minutes`
+- [01:04:46](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3886000) `feishu-minutes`
+- [01:17:22](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=4642000) `feishu-minutes`
+- [01:29:33](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5373000) `feishu-minutes`
+- [01:32:30](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5550000) `feishu-minutes`
+- [01:46:03](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=6363000) `feishu-minutes`
+- [01:57:14](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7034000) `feishu-minutes`
+- [02:01:00](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7260000) `feishu-minutes`
+- [02:05:51](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7551000) `feishu-minutes`
+- [02:11:01](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7861000) `feishu-minutes`
+- [02:12:25](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7945000) `feishu-minutes`
+- [AI内容创作工具及技能分享](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?from=ai_minutes) `feishu-minutes`
+- [New recording_2 2026-04-10](https://scailabs.feishu.cn/docx/E7mWdC0FlotSV2xeL2GcBjGwnJc) `feishu-docx`
+
+## 公开整理纪要
+
+<title>20260410 | 志辉：ClaudeCode + Obsidian，搭建你的自动化内容创作系统</title>
+
+> Title: AI内容创作工具及技能分享
+> 
+> Time: Apr 10, 2026 (Fri) 15:17 - 17:31 (GMT+08)
+
+> AI-generated notes might be inaccurate. Please use with caution.
+
+
+> [飞书附件或预览已隐藏，可回到原纪要查看]
+
+
+# Summary
+
+
+> [飞书白板封面已隐藏，可回到原纪要查看]
+
+
+分享围绕技术工具在内容创作和知识管理中的应用展开，分享了 Claude code、obsidian 等工具的使用经验和技巧，探讨了内容创作的流程和方法，以及如何获取和优化相关技能，内容如下：
+
+- **嘉宾介绍与开场**
+
+  - **资深技术背景**：志辉拥有 10 年大数据架构经验，近年来专注于 AI 编程 Claude code 研究，还著有相关书籍，其推特通过自动化流程实现月入数百刀。
+  - **分享主题**：本次分享聚焦内容创作，而非 AI 编程，旨在分享实操干货，包括如何将 Claude code 和 offsite 知识库结合搭建自动化工作流。
+- **工具介绍与使用技巧**
+
+  - **PPT 制作工具**
+  
+    - ESCALI DRAW：一款开源的手绘风格 PPT 制作工具，使用简单，生成的 PPT 风格小清新。可通过该工具画图，并将图片导入 PPT 模板，还能利用 Claude code（CC）对图片进行修改和完善。
+    - PPT 优化技巧：利用 CC 生成 PPT 后，通过替换背景图可提升 PPT 的美观度，实现短时间内制作高质量 PPT。
+  - **Markdown 与 obsidian**
+  
+    - Markdown 优势：Markdown 是一种普通文本文件，以 .MD 结尾，对大模型和人都友好。它对大模型友好体现在无需特殊插件即可读取，对人友好体现在基本电脑都能打开。同时，Markdown 的格式（如井号表示标题、双星号表示加粗）能让大模型更注重关键信息。
+    - obsidian 功能：可理解为电脑中高级的资源管理器，用于管理 Markdown 文件。其优点包括不受平台束缚、本地操作更灵活、插件丰富等。支持与常见开发工具同步，可在本地开发插件。
+    - **obsidian 插件**
+    
+      - cloding 插件：CC 的界面，布局与 vscode、cursor 类似，左边为 Markdown 文件，中间为编辑文件，右边为对话框。
+      - code pilot：手机端的 CC 工具，可将 GitHub 或推特链接保存到 obsidian 中，通过与它对话实现信息收藏。
+      - 其他插件：如 basis 是数据库视图，每日笔记可用于记日记、规划事项；Web CLIP 可将浏览器内容收藏到 obsidian 中；手机端的插件可将微信聊天记录、文件等保存到 obsidian 中。
+  - **CC 使用体验与获取途径**
+  
+    - 优势明显：在文字工作和内容创作方面，Claude 模型表现优于其他模型，尤其是在处理文字内容时。
+    - 获取途径多样：可通过苹果美区订阅、安卓 Google pay、中转站等方式获取，但部分途径存在封号风险。目前使用 bytetalk 虚拟卡和稳定 IP 效果较好，礼品卡价格相对便宜但无售后。
+  - **其他工具**
+  
+    - UA 工具：小众工具，去年 10 月开始使用，有 MIS 模式，但比较费 TOKEN。其交互友好，一进去是 snap 模式，操作更顺畅。
+    - Scrivener：obsidian 作者官方开发的工具，质量可靠，可用于一些特定的创作和展示。
+- **知识管理与目录结构**
+
+  - **PARA 理论指导**：依据 PARA 理论进行知识管理，构建合理的目录结构。关键点包括 inbox（草稿箱）、项目目录、日程活动、日记、学习笔记等。
+  - **目录功能与应用**
+  
+    - inbox：用于存放待处理的文章、临时创作等内容，处理后可转移到其他合适的目录。
+    - 项目目录：可按业务分类存放项目相关内容。
+    - 日程活动：作为 Todo 事项记录，可与苹果日历和提醒事项打通，方便记录和查看。
+    - 日记：记录日常活动和想法，按月按日分类，成本低且可在手机端操作。
+    - 学习笔记：可按框架或分类进行整理，如 AIGC 相关内容可按不同类型分类。
+  - **tags 分类**：tags 是另一种逻辑层面的分类方式，可用于解决同一主题在不同目录中的分类问题，通过 obsidian 的 CLI 工具使用 tags 会更方便。
+- **内容创作流程与平台应用**
+
+  - **创作流程**
+  
+    - 输入阶段：通过多种方式输入内容，包括公众号文章、PC 端网页、语音记录、推特链接、油管链接等，手机端可利用电报 bot、微信文章等进行输入。
+    - 处理阶段：利用 Claude code 或 cloud 模型对输入内容进行处理，选题不仅来源于网上搜索，还可结合个人记录和风格。
+    - 创作阶段：可通过提取已有文档的风格，让 CC 按照特定风格进行创作，提高创作效率和质量。
+    - 评审与发布阶段：对创作内容进行评审，去除 AI 不合理的部分，然后进行排版发布。
+  - **平台应用**
+  
+    - 公众号：使用宝玉的工具进行创作和发布，通过 API 方式发布，提前设置好排版风格可实现较好的效果。
+    - 推特：使用群友修改后的工具发布，由于推特编辑器不支持表格等内容，需将表格截图处理。通过优化 skills 可提高发布效率和质量。
+    - 小红书：目前封禁较严，主要利用宝玉工具生成小红书图片，结合文章内容进行发布，还在探索发软文的方式以获取流量。
+    - 飞书知识库：使用三方可爱工具可将 Markdown 导入飞书，也可使用官方 Lark CLI 进行群聊、发消息等操作，但导入导出有一定限制。
+- **技能获取与优化**
+
+  - **技能来源**：推荐从 Anthropic 官方仓库、Openai 仓库、verso 仓库获取 skills，这些平台的 skills 经过验证，质量较高。也可从其他平台获取，但需注意验证其可用性。
+  - **技能优化**：将获取的 skills 进行分析和整理，结合自身需求进行优化，形成适合自己的高效技能。例如，在开发网页时，结合已有 skills 形成自己的思维词开发流程。
+  - **技能爬取方法**：通过 AI 辅助在服务器上全局匹配搜索 skills 目录，找到相关文件后进行打包导出。本地软件的 skills 可通过指定安装目录让 AI 查找。
+- **问题讨论与解答**
+
+  - **链接图的实用性**：对于文档量较少、关联性不强的情况，链接图的实际帮助不大；但在写文章参考已有文档时，链接图可发挥作用。
+  - **obsidian 写作体验**：与 Typora 相比，obsidian 的预览美观度稍逊，但在知识管理和插件生态方面具有优势。
+  - **图片生成与 API 配置**：生图模型通过 API 对接，目前使用宝玉的官方模型，配置在 CC 中进行。也可使用其他模型，但需根据实际情况选择。
+  - **微信接入与信息保存**：微信可通过服务号将文章和聊天记录保存到 obsidian 中，需在 OC 中安装插件并关注小程序。服务号后台会解析文章结构和图片，并上传到 OSS 服务器。
+  - **计划设定与日历同步**：通过 CC 可将计划日期记录到苹果日历和提醒事项中，利用苹果底层能力和脚本实现。对于飞书等平台，也可将会议纪要等插入到相关事项中。
+  - **飞书知识库迁移**：不建议将飞书知识库内容一次性迁移到 Outlook 中，可先尝试少量迁移，熟悉操作后再逐步进行。
+
+
+# Smart chapters
+
+[00:11](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=11000)  **志辉分享内容创作及PPT制作AI应用干货**
+
+> 本章节是会议开场环节。说话人2介绍分享嘉宾志辉，称其有10年大数据架构经验，研究AI编程等，还能用自动化流程让推特月入数百刀。志辉开场后介绍此次不讲AI编程，讲内容创作，并分享PPT制作插曲，提到用ESCALI DRAW工具，还介绍利用CC修改图片、结合PPT模板快速做出高质量PPT的技巧。
+
+[05:39](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=339000)  **Markdown基本知识、优势及对大模型的作用**
+
+> 本章节说话人3介绍了Markdown。称其是从航海案例中学来，认为在场人应都了解。Markdown是类似特殊TXT的普通文本文件，以点MD结尾。它火的原因一是对大模型友好，普通文本无需特殊插件读取；二是对人友好，基本电脑都能打开。此外，在排版上可加粗，能让大模型着重理解相关内容。
+
+[07:24](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=444000)  **Obsidian介绍及其相比其他笔记软件的优势**
+
+> 本章节主要介绍了Obsidian，它可理解为高级资源管理器，用于管理Markdown，是本地管理文件的软件。其突然火起来的原因，一是避免因笔记软件停止维护或改变而迁移平台的痛点；二是本地操作Markdown更便捷，比飞书修改文档更高效；三是摆脱平台束缚，插件多且可本地开发调试。
+
+[10:31](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=631000)  **Obsidian使用分享：插件功能、同步及收藏操作**
+
+> 本章节主要介绍了obsidian使用的相关内容。提到cloding插件及手机端的code pilot，可实现链接保存到OC；同步方式有icloud、Git等。还介绍了basis、每日笔记等插件，以及PC和手机端的检藏功能，如Web CLIP、微信检藏等，能将各类内容同步至obsidian，且可通过CC处理分类链接。
+
+[26:27](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1587000)  **Claude模型使用、付费及知识管理工具分享**
+
+> 本章节主要围绕多个话题展开。提到合作未摆脱单一平台，Claude 模型在文字方面表现突出，介绍使用 Claude 模型的付费方式，如美区订阅、Google pay 等，还提及 IP 稳定性及不同付费渠道价格与售后情况。此外，强调玩好 scales 的重要性，讨论飞书、obsidian 等工具的使用，建议找到适合自己的方式。
+
+[31:30](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=1890000)  **Obsidian、Scrivener及Canvas应用与漫画创作**
+
+> 本章节主要介绍了Scrivener和obsidian相关内容，obsidian的CEO官方做了Scrivener，质量较可靠。还提到Jason canvas，可在OC里使用，能画有结构的图，如中国历史朝代图、广东地理分布图等，还能将其转成漫画。此外，介绍了宝玉，主要用于发公众号文章和内容创作，生图、生漫画质量较高。
+
+[34:56](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2096000)  **小众工具使用体验及与CC对比优势**
+
+> 本章节说话人3介绍了一个小众工具，称去年10月开始使用，现薅不到羊毛，11千万TOKEN需13元。该工具的MIS模式已跑23小时，很费TOKEN。说话人分享个人体验，认为其编写好、交互友好，一进去是snap模式，操作模式顺畅，且one shot功能表现更好，还有目前其他编程工具没有的missing模式。
+
+[37:44](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2264000)  **知识管理目录结构及相关功能工具介绍**
+
+> 本章节说话人3介绍admin相关内容，提及知识管理理论PARA，展示自己整理的目录结构，包括inbox（草稿箱）、项目录、日程活动、日记等。还介绍了记录提醒事项可与苹果日历等打通，以及记录家庭财务、付费产品等。此外，提到obsiding的CLI工具，能辅助做大脑图和处理tag，还演示了链接收藏功能。
+
+[48:47](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=2927000)  **Obsidian PC端收藏页面功能及使用介绍**
+
+> 本章节说话人3主要介绍了obsidian PC端的典藏页面，展示了para相关内容。提到该页面收藏功能可基本保存页面内容，还能进行翻译后简藏，收藏内容会统一放在目录，方便后续整理，本地保存无需联网搜索。此外还介绍了编号文件夹、模板、合集等，指出多用可积累素材用于内容创作，沉淀需巩固复习的内容。
+
+[52:32](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3152000)  **内容创作平台及创作流程介绍**
+
+> 本章节主要围绕内容创作展开。介绍了可进行内容创作的平台，如公众号、推特、知识库等，小红书仅能做出图动作。提及输入数据来源包括PC端、语音记录、播客等。阐述选题不仅源于网络，还可来自个人记录，可通过特定方式提取风格。最后说明了阶段创作的流程，包括评审、排版发布等。
+
+[55:02](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3302000)  **APP设想及多平台输入功能使用情况**
+
+> 本章节说话人3主要介绍了输入相关内容。他曾想做一个APP，可通过该APP与经理打交道，能处理语音、图片等事务，且可随意修改自己写的项目。目前先用电报的bot，手机端能搞定微信文章、推特链接、油管链接等，PC端基本也没问题。
+
+[55:43](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3343000)  **多平台内容发布痛点与OBS写作工具探讨**
+
+> 本章节主要讨论了内容发布工具与写作软件。介绍了scale、宝玉等发布平台，提及推特操作复杂。还谈到飞书相关工具，如飞书CLI。讲述写作痛点及OBS的使用，对比OBS与Typora、tiber的写作体验，指出OBS写作不够丝滑。最后提到可在OBS创建多个仓库，可将文件夹添加到指定位置。
+
+[01:04:46](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=3886000)  **文章发布演示、技能运用及平台接入思路**
+
+> 本章节主要围绕文章发布演示展开。说话人3用含图、文字、表格和代码的文章演示，尝试发布到微信公众号和推特。介绍了文章配图、排版等情况，提及推特编辑器难用、不支持表格等问题。还分享养技能思路，强调技能原子化、封装解耦，便于调试和接入新平台，最后成功发布文章到两平台。
+
+[01:17:22](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=4642000)  **借助插件写文章及生成图片发布多平台分享**
+
+> 本章节主要围绕写文章及发布展开。说话人3演示写文章，以“hamlets”等为主题，结合公域平台如小红书。介绍Claude code插件可利用Obsidian资料提高写作效率，还提及抽象出写作流程和风格能提升文章质量。此外，展示了调用skill根据文章生成小红书图片，不过插件存在不稳定情况。
+
+[01:29:33](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5373000)  **播客内容生成、流程改造及电脑内存讨论**
+
+> 本章节主要讨论了内容创作与处理相关事宜。说话人3计划利用其他平台生成播客和视频，视频内容围绕飞书CLA的使用。还提到播客可将链接导入生成字幕、翻译成文字，关键在于找到“死掉词”。此外，展示了一个分topic的流程，该流程有固化流程和爆款采集，此流程是别人给说话人3的。最后还谈及电脑内存情况。
+
+[01:32:30](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=5550000)  **优质skills获取渠道、扒取方法及分析利用**
+
+> 本章节主要讨论了搜集优质 skills 的途径和方法。推荐从 Anthropic、Openai、verso 官方仓库获取，还可从死掉项目中扒取，如 Playground 项目等。强调这些来源的 skills 质量高且经过验证。同时介绍了扒取 code 的实操方法，包括让 AI 辅助查找目录等，还提及本地找 skills 的方式，最后将搜集的内容分类存放。
+
+[01:46:03](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=6363000)  **文章创作技巧、选题及工具使用讨论**
+
+> 本章节围绕文章写作展开讨论。提及选题报告，推荐了“writer 中文爆款长文创作”。还谈到宝玉的 GitHub 是中文爆款文章资料来源，其推特、微博有相关内容。分享了写作模板、风格、技巧等，建议使用朴素 AI 化方式创作。此外，提到让写中国历史朝代歌，用 canvas 画图，创作流程较细且运行时间长。
+
+[01:57:14](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7034000)  **小红书发布方式、内容处理及私下交易探讨**
+
+> 本章节主要讨论了小红书发布内容的相关问题。说话人3采用黑白风格，认为目前发布没好方法且平台管理严，想借鉴发推思路。对于操作方式，探讨了手机和电脑控制，提及投屏、文件传输等。还提到要改掉内容中的符号，内容评估和风格可能被平台识别，另外还提到私下交易，但具体情况需搜资料进一步了解。
+
+[02:01:00](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7260000)  **Cloudy软件API配置、生图成本及网络规则讨论**
+
+> 本章节主要讨论了生图模型、相关软件及 API 配置等内容。生图模型通过 API 对接，有谷歌香蕉生图等，可理解为类似 cursor 里的插件。CC 是配置 API 的关键，还可配第三方的。生图 API 配置在宝玉 skills 商服的 ENV 处。生图价格较贵，有人用盗版网站一毛多一张。还提及魔法状态设置为规则模式。
+
+[02:05:51](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7551000)  **微信接客户及知识管理工具使用与费用探讨**
+
+> 本章节主要讨论了微信接收客户及文章收藏相关内容。提到可将微信聊天窗口内容移植，关键点在于保存完整文章内容包括图片。介绍了服务号有后台服务解析文章结构、上传图片到OSS服务器，还谈到安装插件、小程序关注等操作，该服务可保存聊天记录和文章，价格方面有人买两年150 - 200元。
+
+[02:11:01](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7861000)  **日程记录到日历及事项的实现方式探讨**
+
+> 本章节主要讨论了设定计划日期并自动添加到日历或设置闹钟的实现方式。说话人询问是否用 SQL 实现，还提及听说下午有会能自动放入日历或设闹钟的情况。说话人 3 举例让同事记录事项到手机和电脑日历及事项里，指出苹果可通过命令脚本调用底层应用执行动作，还提到飞书、Outlook 等可插入会议纪要。
+
+[02:12:25](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?t=7945000)  **飞书知识库转 Outlook 探讨及拍照安排**
+
+> 本章节主要围绕知识库迁移问题展开讨论，user202128询问如何将飞书知识库批量导入Outlook，说话人3不建议一下子全部转移，建议先尝试导入几个试试，因两者结构不同。之后话题转向拍照，说话人2提议赶紧拍照，最后说话人1与user202128交流，得知其上次未参加。
+
+
+# Key decisions
+
+本次会议为分享类会议，无关键决策。会议关键内容总结如下：
+
+- **工具分享**：分享人介绍了多种工具，如ESCALI DRAW用于制作PPT，Obsidian用于管理Markdown文件，Claude code用于文字工作和代码编写，以及宝玉等工具用于内容创作和生图。
+- **知识管理**：介绍了基于PARA理论的知识管理结构，包括inbox（草稿箱）、项目目录、日程活动、日记等，可将各类信息整理到Obsidian中。
+- **内容创作流程**：涵盖选题、创作、评审、排版发布等环节，可利用Claude code和Obsidian中的资料辅助创作，提高效率和质量。
+- **技能获取**：推荐从Anthropic官方、Openai、verso等仓库获取优质技能，避免从网上随意寻找。
+- **平台发布**：演示了在微信公众号、推特等平台发布文章的过程，并介绍了相关技巧和注意事项。
+
+
+# Notable quotes
+
+"目前来说，在文字工作，包括内容创作、思路整理方面，Claude模型比其他模型要好很多。"
+
+—— 明确指出Claude模型在文字工作方面的优势，为参会者选择合适的工具提供了参考。
+
+
+"找一个低成本、能力强的工具去养技能，养完后再迁移到其他平台。"
+
+—— 提出了一种高效的技能培养和迁移思路，具有一定的指导意义。
+
+
+"将文档或对标文档放过来，进行简单抽取，是最朴素且效果最好的AI化方式。"
+
+—— 提供了一种简单有效的内容创作方法，强调了回归本质的重要性。
+
+
+# Links
+
+- Minutes: [AI内容创作工具及技能分享](https://scailabs.feishu.cn/minutes/obcnxyupeffij6818aez3c9c?from=ai_minutes)
+- Meeting transcript
+
+  - [New recording_2 2026-04-10](https://scailabs.feishu.cn/docx/E7mWdC0FlotSV2xeL2GcBjGwnJc)
+
+## 来源边界
+
+本页来自飞书 Wiki / Docx / 妙记 AI 产物的公开整理版。已移除飞书临时下载鉴权链接、内部文件流地址、白板 token 和原始逐字稿正文；需要查看附件、封面图或原始权限内容，请回到飞书源链接。
