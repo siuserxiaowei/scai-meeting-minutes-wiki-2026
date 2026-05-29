@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260516 | 志辉：搭建24小时不断写项目的超级系统
 
-> **城市：**深圳  
-> **日期：**2026-05-16  
-> **嘉宾/分享人：**志辉  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse](https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse)
+> 城市：深圳  
+> 日期：2026-05-16  
+> 嘉宾/分享人：志辉  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse](https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse)
 
 ## 如果只读 10 分钟
 

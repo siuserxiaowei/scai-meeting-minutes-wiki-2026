@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260403｜小圆：AI企业服务，如何借势从0快速起盘
 
-> **城市：**深圳  
-> **日期：**2026-04-03  
-> **嘉宾/分享人：**小圆  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf](https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf)
+> 城市：深圳  
+> 日期：2026-04-03  
+> 嘉宾/分享人：小圆  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf](https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf)
 
 ## 如果只读 10 分钟
 

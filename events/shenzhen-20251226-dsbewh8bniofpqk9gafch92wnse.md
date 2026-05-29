@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20251226｜来来老师：AI工作流及知识库分享
 
-> **城市：**深圳  
-> **日期：**2025-12-26  
-> **嘉宾/分享人：**来来老师  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe](https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe)
+> 城市：深圳  
+> 日期：2025-12-26  
+> 嘉宾/分享人：来来老师  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe](https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe)
 
 ## 如果只读 10 分钟
 

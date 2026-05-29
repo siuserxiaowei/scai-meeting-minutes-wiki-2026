@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260522 | Lester：AI行业赛道选择与投资分析 on May 22, 2026
 
-> **城市：**深圳  
-> **日期：**2026-05-22  
-> **嘉宾/分享人：**Lester  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd](https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd)
+> 城市：深圳  
+> 日期：2026-05-22  
+> 嘉宾/分享人：Lester  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd](https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd)
 
 ## 如果只读 10 分钟
 

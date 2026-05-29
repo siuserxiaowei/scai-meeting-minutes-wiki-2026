@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20250115｜紫菜老师创业心法
 
-> **城市：**深圳  
-> **日期：**2025-01-15  
-> **嘉宾/分享人：**未标注  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/MKdPwAjOLiZNqBkGdVJc48sZnzd](https://scailabs.feishu.cn/wiki/MKdPwAjOLiZNqBkGdVJc48sZnzd)
+> 城市：深圳  
+> 日期：2025-01-15  
+> 嘉宾/分享人：未标注  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/MKdPwAjOLiZNqBkGdVJc48sZnzd](https://scailabs.feishu.cn/wiki/MKdPwAjOLiZNqBkGdVJc48sZnzd)
 
 ## 如果只读 10 分钟
 

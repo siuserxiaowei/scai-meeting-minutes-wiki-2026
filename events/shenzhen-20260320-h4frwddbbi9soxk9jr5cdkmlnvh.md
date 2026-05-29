@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260320｜阿民：AI产品出海变现经验分享
 
-> **城市：**深圳  
-> **日期：**2026-03-20  
-> **嘉宾/分享人：**阿民  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh](https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh)
+> 城市：深圳  
+> 日期：2026-03-20  
+> 嘉宾/分享人：阿民  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh](https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh)
 
 ## 如果只读 10 分钟
 

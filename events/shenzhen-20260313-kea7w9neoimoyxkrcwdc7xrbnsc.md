@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260313｜子扬：如何在变化中抓流量入口变现
 
-> **城市：**深圳  
-> **日期：**2026-03-13  
-> **嘉宾/分享人：**子扬  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc](https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc)
+> 城市：深圳  
+> 日期：2026-03-13  
+> 嘉宾/分享人：子扬  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc](https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc)
 
 ## 如果只读 10 分钟
 

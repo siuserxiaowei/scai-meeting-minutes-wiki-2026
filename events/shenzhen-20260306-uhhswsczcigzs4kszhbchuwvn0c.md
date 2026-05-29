@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260306｜雨文：AI项目杠杆思维与OpenClaw实操分享
 
-> **城市：**深圳  
-> **日期：**2026-03-06  
-> **嘉宾/分享人：**雨文  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c](https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c)
+> 城市：深圳  
+> 日期：2026-03-06  
+> 嘉宾/分享人：雨文  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c](https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c)
 
 ## 如果只读 10 分钟
 

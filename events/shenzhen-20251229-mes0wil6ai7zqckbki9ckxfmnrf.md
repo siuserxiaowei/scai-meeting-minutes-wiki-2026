@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20251229｜七天：垂直小号定位及运营策略分享
 
-> **城市：**深圳  
-> **日期：**2025-12-29  
-> **嘉宾/分享人：**七天  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf](https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf)
+> 城市：深圳  
+> 日期：2025-12-29  
+> 嘉宾/分享人：七天  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf](https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf)
 
 ## 如果只读 10 分钟
 

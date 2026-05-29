@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260410 | 志辉：推特起号及商单合作经验分享
 
-> **城市：**深圳  
-> **日期：**2026-04-10  
-> **嘉宾/分享人：**志辉  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r](https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r)
+> 城市：深圳  
+> 日期：2026-04-10  
+> 嘉宾/分享人：志辉  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r](https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r)
 
 ## 如果只读 10 分钟
 

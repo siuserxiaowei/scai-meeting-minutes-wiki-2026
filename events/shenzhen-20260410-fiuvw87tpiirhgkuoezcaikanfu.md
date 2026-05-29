@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260410 | 志辉：ClaudeCode + Obsidian，搭建你的自动化内容创作系统
 
-> **城市：**深圳  
-> **日期：**2026-04-10  
-> **嘉宾/分享人：**志辉  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu](https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu)
+> 城市：深圳  
+> 日期：2026-04-10  
+> 嘉宾/分享人：志辉  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu](https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu)
 
 ## 如果只读 10 分钟
 

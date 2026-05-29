@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260130｜M叔：创业心法及方法论分享
 
-> **城市：**深圳  
-> **日期：**2026-01-30  
-> **嘉宾/分享人：**M叔  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf](https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf)
+> 城市：深圳  
+> 日期：2026-01-30  
+> 嘉宾/分享人：M叔  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf](https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf)
 
 ## 如果只读 10 分钟
 

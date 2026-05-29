@@ -437,11 +437,11 @@ updated: {datetime.now().strftime('%Y-%m-%d')}
 
 # {event['title']}
 
-> **城市：**{event['city']}  
-> **日期：**{event.get('date') or '未标注'}  
-> **嘉宾/分享人：**{event.get('speaker') or '未标注'}  
-> **状态：**{event.get('status')}  
-> **原始链接：**[{event['source_url']}]({event['source_url']})
+> 城市：{event['city']}  
+> 日期：{event.get('date') or '未标注'}  
+> 嘉宾/分享人：{event.get('speaker') or '未标注'}  
+> 状态：{event.get('status')}  
+> 原始链接：[{event['source_url']}]({event['source_url']})
 
 ## 如果只读 10 分钟
 

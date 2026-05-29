@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260306｜来来老师: OpenClaw云端部署分享
 
-> **城市：**深圳  
-> **日期：**2026-03-06  
-> **嘉宾/分享人：**来来老师  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/MRVuwUcvMiPHcOkmhctcBr6Sn3b](https://scailabs.feishu.cn/wiki/MRVuwUcvMiPHcOkmhctcBr6Sn3b)
+> 城市：深圳  
+> 日期：2026-03-06  
+> 嘉宾/分享人：来来老师  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/MRVuwUcvMiPHcOkmhctcBr6Sn3b](https://scailabs.feishu.cn/wiki/MRVuwUcvMiPHcOkmhctcBr6Sn3b)
 
 ## 如果只读 10 分钟
 

@@ -1044,30 +1044,6 @@
     "source_url": "https://scailabs.feishu.cn/wiki/GgE0wHEvyiA5ySkmquycFY4ynFf"
   },
   {
-    "event_id": "shenzhen-20260410-gge0whevyia5yskmquycfy4ynff",
-    "city": "深圳",
-    "owner": "许老师",
-    "title": "更高水平需积淀",
-    "detail": "更高水平需积淀：达到90分及以上水平则需要更长时间的钻研和积淀",
-    "priority": "中",
-    "theme": "AI企服",
-    "event_title": "20260410 | 许老师：AI夜校启动仪式",
-    "event_date": "2026-04-10",
-    "source_url": "https://scailabs.feishu.cn/wiki/GgE0wHEvyiA5ySkmquycFY4ynFf"
-  },
-  {
-    "event_id": "shenzhen-20260410-gge0whevyia5yskmquycfy4ynff",
-    "city": "深圳",
-    "owner": "许老师",
-    "title": "长期思考",
-    "detail": "长期思考：做业务应从三年维度思考，制定长期规划，避免短期急躁和动作变形。如联合办公业务前期不赚钱，但长期来看有较好收益",
-    "priority": "中",
-    "theme": "AI企服",
-    "event_title": "20260410 | 许老师：AI夜校启动仪式",
-    "event_date": "2026-04-10",
-    "source_url": "https://scailabs.feishu.cn/wiki/GgE0wHEvyiA5ySkmquycFY4ynFf"
-  },
-  {
     "event_id": "shenzhen-20260410-ww2bwu0qqib4g2kdbivcwelrn4r",
     "city": "深圳",
     "owner": "相关成员",
@@ -1529,6 +1505,18 @@
     "owner": "老黄牛/黄牛老师",
     "title": "避免关键词堆砌",
     "detail": "避免关键词堆砌：写作应注重质量，避免刻意堆砌关键词。根据平台调性摸索平衡点，直接写出认为好的文章，长期积累可树立 IP",
+    "priority": "中",
+    "theme": "流量增长",
+    "event_title": "2026-04-03 周五｜线下主题分享",
+    "event_date": "2026-04-03",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
+    "event_id": "guangzhou-20260403-09",
+    "city": "广州",
+    "owner": "老黄牛/黄牛老师",
+    "title": "选股逻辑",
+    "detail": "选股逻辑：不建议主动选股，应采用被动投资和再平衡策略，选择相关性低的资产进行配置",
     "priority": "中",
     "theme": "流量增长",
     "event_title": "2026-04-03 周五｜线下主题分享",
@@ -2022,6 +2010,18 @@
     "title": "培养主观能力",
     "detail": "培养主观能力：要相信自己的主观判断，培养主观能力，提高自己的“够用指数”，让更多人需要自己",
     "priority": "中",
+    "theme": "AI企服",
+    "event_title": "2026-03-25 周三晚｜涛哥直播/加餐分享",
+    "event_date": "2026-03-25",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
+    "event_id": "guangzhou-20260325-13",
+    "city": "广州",
+    "owner": "涛哥",
+    "title": "AI 应用实践",
+    "detail": "AI 应用实践：参会者应积极使用 cloud 等 AI 工具，将使用时长拉满，超过微信，尝试制作自己的 AI 应用，如 AI 木子等",
+    "priority": "高",
     "theme": "AI企服",
     "event_title": "2026-03-25 周三晚｜涛哥直播/加餐分享",
     "event_date": "2026-03-25",
@@ -2892,6 +2892,18 @@
     "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
   },
   {
+    "event_id": "shenzhen-20260126-textwiajyi52k6kq2dscvlgmnbe",
+    "city": "深圳",
+    "owner": "醒醒老师",
+    "title": "找到适合的管理风格",
+    "detail": "找到适合的管理风格：很多人在不清楚自己个性时，学习管理学课程和方法却难以应用。通过盖洛普可大概率看出管理风格，发挥擅长的管理方式，提高绩效。例如有人擅长放权和释放信任，能让团队高效完成工作",
+    "priority": "中",
+    "theme": "AI企服",
+    "event_title": "20260126｜醒醒老师：盖洛普优势才干应用分享",
+    "event_date": "2026-01-26",
+    "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
+  },
+  {
     "event_id": "shenzhen-20260116-ubclwl6kpimwfrkto5bcrvxlnkc",
     "city": "深圳",
     "owner": "相关成员",
@@ -2993,6 +3005,18 @@
     "owner": "哥飞",
     "title": "迁移用户习惯",
     "detail": "迁移用户习惯：针对特定人群，应迁移其常用软件或工作方式的操作习惯到网站中，降低用户学习成本，提升产品易用性和付费率。如 Lovart 的无限画布模式源于 Figma 和 PS 的操作习惯，更适合专业设计人员",
+    "priority": "中",
+    "theme": "AI编程",
+    "event_title": "20260116｜哥飞：web出海闭门答疑分享会",
+    "event_date": "2026-01-16",
+    "source_url": "https://scailabs.feishu.cn/wiki/UBcLwl6KPiMWFRkTo5bcrvXlnKc"
+  },
+  {
+    "event_id": "shenzhen-20260116-ubclwl6kpimwfrkto5bcrvxlnkc",
+    "city": "深圳",
+    "owner": "哥飞",
+    "title": "研究竞争对手",
+    "detail": "研究竞争对手：针对同一需求，不同网站有不同侧重点和实现方式，应研究竞争对手，找准目标人群和操作习惯，满足其需求",
     "priority": "中",
     "theme": "AI编程",
     "event_title": "20260116｜哥飞：web出海闭门答疑分享会",
@@ -3276,6 +3300,18 @@
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
   {
+    "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
+    "city": "深圳",
+    "owner": "许老师",
+    "title": "老板的核心任务",
+    "detail": "老板的核心任务：说话人 1 强调招人是创业者的重要任务，包括招员工、上下游合作伙伴和外部资源团队，创业者应将找人作为头等大事",
+    "priority": "中",
+    "theme": "AI企服",
+    "event_title": "20251219｜许老师：创业项目决策与算账方法分享",
+    "event_date": "2025-12-19",
+    "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
+  },
+  {
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "owner": "左烨紫",
@@ -3377,6 +3413,18 @@
     "owner": "左烨紫",
     "title": "根据用户画像调整策略",
     "detail": "根据用户画像调整策略：了解用户画像是制定销售策略的关键。例如，90 后客户反感主动销售，因此在私域营销中应采用“撩”的方式，而不是硬推。同时，要将服务重点放在花费时间少、利润大且信任度高的客户身上，避免本末倒置",
+    "priority": "高",
+    "theme": "AI编程",
+    "event_title": "20250109｜左烨紫：高客单私域销售策略分享",
+    "event_date": "2025-01-09",
+    "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
+  },
+  {
+    "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
+    "city": "深圳",
+    "owner": "左烨紫",
+    "title": "避免同质化内容",
+    "detail": "避免同质化内容：要避免与同行发布相似的内容，以免被客户屏蔽。例如，保险销售人员应避免像普通同行那样刷屏和纠缠客户，要发布独特、有价值的内容",
     "priority": "高",
     "theme": "AI编程",
     "event_title": "20250109｜左烨紫：高客单私域销售策略分享",

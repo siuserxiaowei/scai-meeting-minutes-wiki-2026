@@ -7,11 +7,11 @@ updated: 2026-05-29
 
 # 20260417｜雨文：龙虾+AI视频演示（预告）
 
-> **城市：**深圳  
-> **日期：**2026-04-17  
-> **嘉宾/分享人：**雨文  
-> **状态：**full  
-> **原始链接：**[https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg](https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg)
+> 城市：深圳  
+> 日期：2026-04-17  
+> 嘉宾/分享人：雨文  
+> 状态：full  
+> 原始链接：[https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg](https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg)
 
 ## 如果只读 10 分钟
 
