@@ -19,7 +19,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "如果当时能更多地去咖啡店里面聊天，就能更早地找到自己该去的方向，所以我们在深圳开始做这种车库社群",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -35,7 +35,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "要选择足够大的赛道，它招的人最多，招高管也最多，生态上下游合作伙伴也最多",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -43,7 +43,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "关键决策：个人和企业在AI时代应积极与龙头企业产生关联，选择合适的参与方式",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -51,7 +51,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "强调投资要明确自身是短线、中线还是长线投资者，避免认知与操作手法错位",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -59,7 +59,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "决策依据：AI时代龙头企业占据大部分产业利润，与龙头产生关联能获取更多机会",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -67,7 +67,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "赛道规模：应优先选择足够大的赛道，如万亿以上赛道，这类赛道招人多、高管需求多、生态上下游合作伙伴多",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -75,7 +75,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "万亿赛道：是优先研究的对象，如当前的芯片、大模型、AI 硬件、车等赛道",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -83,7 +83,7 @@
     "event_id": "shenzhen-20260522-rky7wiasridcvckwmlxcpa1mnpd",
     "city": "深圳",
     "quote": "投资方向：作为投资人应跟随赛道变化，优先研究万亿以上赛道，如芯片、大模型等",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-22 · Lester",
     "source_url": "https://scailabs.feishu.cn/wiki/RKY7wiasRiDcvCkWMlxcpA1MnPd"
   },
@@ -146,16 +146,8 @@
   {
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI企服",
-    "note": "2026-05-20 · 涛哥主持",
-    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
-  },
-  {
-    "event_id": "guangzhou-20260520-03",
-    "city": "广州",
     "quote": "核心流程：创业者依次进行30秒自我介绍（含项目方向、现有资源、当前卡点），涛哥针对每个项目给出定制化建议",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -171,7 +163,7 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "建议：可利用现有资源为电商玩家提供 AI 相关服务，如 AI 生图、自动回复机器人等，还可开发全链路自动化及知识库等工具",
-    "theme": "AI企服",
+    "theme": "跨境电商",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -179,7 +171,7 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "涛哥强调创业过程中资源可复用，应大胆宣传自身业务",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -187,7 +179,7 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "可参考王可乐和“老吴懂澳门”的打法，聚焦用户需求，如租房、换汇、开户等，避免自嗨式内容",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -195,7 +187,7 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "同时，要明确赚钱对象，细分目标群体，优化 IP 名称",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -203,7 +195,7 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "赚钱重点在线下，可通过地推和混群获取客户，准备五合一资料进行极致渲染",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -211,7 +203,15 @@
     "event_id": "guangzhou-20260520-03",
     "city": "广州",
     "quote": "建议：涛哥认为思路正确，案例库要考虑客户手机查看体验，做到可视化极致，可参考特斯拉、苹果等官网风格",
-    "theme": "AI企服",
+    "theme": "成交变现",
+    "note": "2026-05-20 · 涛哥主持",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
+    "event_id": "guangzhou-20260520-03",
+    "city": "广州",
+    "quote": "此外，涛哥还提到帮助老板实现 AI 自由可获取高额利润",
+    "theme": "成交变现",
     "note": "2026-05-20 · 涛哥主持",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -227,7 +227,7 @@
     "event_id": "shenzhen-20260516-pqkuwprihisvzoky461cuhltnse",
     "city": "深圳",
     "quote": "国外的项目里大部分代码是测试代码，所以软件功能稳定；而国内软件讲究快速上线，基本不写测试代码，导致功能花哨但易报错",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-05-16 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse"
   },
@@ -267,7 +267,7 @@
     "event_id": "shenzhen-20260516-pqkuwprihisvzoky461cuhltnse",
     "city": "深圳",
     "quote": "说话人对比了 factory Droid 与 CC、Codex 等工具，指出 factory Droid 在交互体验、测试功能、模型设置等方面的优势",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-05-16 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse"
   },
@@ -275,7 +275,7 @@
     "event_id": "shenzhen-20260516-pqkuwprihisvzoky461cuhltnse",
     "city": "深圳",
     "quote": "决策依据：factory Droid 工具具有多方面优势，能提高开发效率、保证代码质量、降低成本，且能满足不同场景的需求",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-05-16 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse"
   },
@@ -283,7 +283,7 @@
     "event_id": "shenzhen-20260516-pqkuwprihisvzoky461cuhltnse",
     "city": "深圳",
     "quote": "对于项目开发，建议先详细准备 PRD 文档，明确功能需求和实现关键点",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-05-16 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/PqKUwpRihisVzOkY461cuhltnse"
   },
@@ -291,7 +291,7 @@
     "event_id": "guangzhou-20260515-04",
     "city": "广州",
     "quote": "复盘笔记｜含会议纪要、提示词/网站、工具演示视频、合作渠道、48小时执行计划：https://my.feishu.cn/wiki/Vgb3wM5eNi083Hk7x9tcltpJneb?",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-05-15 · 小圆老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -362,16 +362,8 @@
   {
     "event_id": "guangzhou-20260508-05",
     "city": "广州",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI企服",
-    "note": "2026-05-08 · 阿May（增长女黑客）",
-    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
-  },
-  {
-    "event_id": "guangzhou-20260508-05",
-    "city": "广州",
     "quote": "强调AI不是替代而是放大人类能力，应将AI员工纳入组织编制，转变营销思维，注重积累资产",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-05-08 · 阿May（增长女黑客）",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -403,7 +395,7 @@
     "event_id": "guangzhou-20260508-05",
     "city": "广州",
     "quote": "例如，原本不懂编程的人可以借助 AI 学习小程序开发和产品设计",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-05-08 · 阿May（增长女黑客）",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -427,7 +419,15 @@
     "event_id": "guangzhou-20260508-05",
     "city": "广州",
     "quote": "企业需要明确业务策略，提取目标客户业务模型，才能实现获客和转化",
-    "theme": "AI企服",
+    "theme": "流量增长",
+    "note": "2026-05-08 · 阿May（增长女黑客）",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
+    "event_id": "guangzhou-20260508-05",
+    "city": "广州",
+    "quote": "工具选择：在工具选择上，龙虾适用于一般企业，扣子适用于对流程稳定性要求较高的政企客户",
+    "theme": "成交变现",
     "note": "2026-05-08 · 阿May（增长女黑客）",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -435,7 +435,7 @@
     "event_id": "guangzhou-20260425-06",
     "city": "广州",
     "quote": "小红书实战经验分享：嘉宾/分享人：圈友组织 - 主题/内容：小红书实战经验分享 - 笔记/资料： - 录音｜虚拟产品选品变现分享交流会：https://d.biji.com/GDlwGI2l…",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-25 · 圈友组织",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -443,7 +443,7 @@
     "event_id": "guangzhou-20260425-06",
     "city": "广州",
     "quote": "嘉宾/分享人：圈友组织 - 主题/内容：小红书实战经验分享 - 笔记/资料： - 录音｜虚拟产品选品变现分享交流会：https://d.biji.com/GDlwGI2l5tZyX7Hm -…",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-25 · 圈友组织",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -506,7 +506,7 @@
   {
     "event_id": "shenzhen-20260417-nktiwepwzicue6kf3mtcyy1fnzg",
     "city": "深圳",
-    "quote": "本次会议为分享类会议，无关键决策",
+    "quote": "实战经验：在龙虾领域有丰富实战经验，几分钟就能让龙虾产出爆款视频",
     "theme": "AI编程",
     "note": "2026-04-17 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg"
@@ -514,7 +514,7 @@
   {
     "event_id": "shenzhen-20260417-nktiwepwzicue6kf3mtcyy1fnzg",
     "city": "深圳",
-    "quote": "实战经验：在龙虾领域有丰富实战经验，几分钟就能让龙虾产出爆款视频",
+    "quote": "工作流演示 [图片见原飞书纪要]",
     "theme": "AI编程",
     "note": "2026-04-17 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/NKTIwEPWZicUe6kF3mTcYY1Fnzg"
@@ -523,7 +523,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "很多人会关注技术本身，但却没有想清楚自己的客户是谁。如果没有想清楚客户是谁，只是闷着头去关心技术，可能走得不太长远。我们要想清楚自己的客户是谁，避免团队对客户画像模糊，面对机会时无法做出清晰…",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -531,7 +531,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "我们不卖模型，我们卖的是个闭环的解决方案，选模型只是其中一个小小的环节，我们要把一条AI流程跑到有数据能交给客户自己的人运营，且这种完善的闭环解决方案大部分团队是不提供的",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -539,7 +539,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "首先要懂客户，懂客户才能讲清楚，最后才能干起来，这三步不能颠倒，懂客户是前提",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -547,7 +547,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "关键决策：明确电商服务销售的策略和方法",
-    "theme": "AI企服",
+    "theme": "跨境电商",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -555,7 +555,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "说话人2提出要明确目标客户画像，从规模、品类、阶段、渠道和团队等五类进行筛选，避免服务不符合要求的客户",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -563,7 +563,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "收费方式按照客户节省的钱的10%来定价，避免按时效或功能收费陷入价格陷阱",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -571,7 +571,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "决策依据：基于说话人2多年电商服务和销售经验，通过实际案例验证这些策略和方法能有效提高销售效率和客户满意度",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -587,7 +587,7 @@
     "event_id": "shenzhen-20260417-jorhwbkd9imfe6kxxadcbnj7n8d",
     "city": "深圳",
     "quote": "渠道要求：优先服务全平台渠道运作的客户，单一平台客户提效空间小且付费意愿低",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-04-17 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/JORhwBkD9iMFe6kxxAdcbnJ7n8d"
   },
@@ -667,7 +667,7 @@
     "event_id": "shenzhen-20260410-gge0whevyia5yskmquycfy4ynff",
     "city": "深圳",
     "quote": "音频围绕AI发展趋势、应用方法、业务机会以及学习安排等内容展开讨论，强调AI应用的紧迫性和巨大潜力，介绍了AI夜校计划，并分析了不同AI业务方向的策略和前景，内容如下",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-04-10 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/GgE0wHEvyiA5ySkmquycFY4ynFf"
   },
@@ -699,7 +699,7 @@
     "event_id": "shenzhen-20260410-ww2bwu0qqib4g2kdbivcwelrn4r",
     "city": "深圳",
     "quote": "如果刷号，建议搞个列表刷，因为现在内容同质化很严重",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-10 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r"
   },
@@ -723,7 +723,7 @@
     "event_id": "shenzhen-20260410-ww2bwu0qqib4g2kdbivcwelrn4r",
     "city": "深圳",
     "quote": "可偶尔发布争议话题引发讨论，但搞IP不能常发",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-10 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r"
   },
@@ -731,7 +731,7 @@
     "event_id": "shenzhen-20260410-ww2bwu0qqib4g2kdbivcwelrn4r",
     "city": "深圳",
     "quote": "还可做提示词网站、收集推特提示词等",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-10 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r"
   },
@@ -739,7 +739,7 @@
     "event_id": "shenzhen-20260410-ww2bwu0qqib4g2kdbivcwelrn4r",
     "city": "深圳",
     "quote": "账号管理：可创建列表对关注的人进行分类，避免刷推荐时内容同质化，提高刷号效率",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-10 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/WW2bwu0qQiB4g2kdBIVcweLRn4r"
   },
@@ -802,14 +802,6 @@
   {
     "event_id": "shenzhen-20260410-fiuvw87tpiirhgkuoezcaikanfu",
     "city": "深圳",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI编程",
-    "note": "2026-04-10 · 志辉",
-    "source_url": "https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu"
-  },
-  {
-    "event_id": "shenzhen-20260410-fiuvw87tpiirhgkuoezcaikanfu",
-    "city": "深圳",
     "quote": "分享围绕技术工具在内容创作和知识管理中的应用展开，分享了 Claude code、obsidian 等工具的使用经验和技巧，探讨了内容创作的流程和方法，以及如何获取和优化相关技能，内容如下",
     "theme": "AI编程",
     "note": "2026-04-10 · 志辉",
@@ -819,6 +811,14 @@
     "event_id": "shenzhen-20260410-fiuvw87tpiirhgkuoezcaikanfu",
     "city": "深圳",
     "quote": "它对大模型友好体现在无需特殊插件即可读取，对人友好体现在基本电脑都能打开",
+    "theme": "AI编程",
+    "note": "2026-04-10 · 志辉",
+    "source_url": "https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu"
+  },
+  {
+    "event_id": "shenzhen-20260410-fiuvw87tpiirhgkuoezcaikanfu",
+    "city": "深圳",
+    "quote": "同时，Markdown 的格式（如井号表示标题、双星号表示加粗）能让大模型更注重关键信息",
     "theme": "AI编程",
     "note": "2026-04-10 · 志辉",
     "source_url": "https://scailabs.feishu.cn/wiki/FiUvw87TpiIRhgkuoEzcaIKanfu"
@@ -835,7 +835,7 @@
     "event_id": "shenzhen-20260403-rapzwswi0i49yjk3ftscnh5enmf",
     "city": "深圳",
     "quote": "主动寻找协会、孵化基地等密集型企业资源机会，抓住转折点",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-04-03 · 小圆",
     "source_url": "https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf"
   },
@@ -859,7 +859,7 @@
     "event_id": "shenzhen-20260403-rapzwswi0i49yjk3ftscnh5enmf",
     "city": "深圳",
     "quote": "AI 技术应用：培训中常用的 AI 技术为办公相关，如文字生成、图片生成、视频生成、PPT 制作等，前期可讲通用内容，垂直行业后再细化",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-04-03 · 小圆",
     "source_url": "https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf"
   },
@@ -867,7 +867,7 @@
     "event_id": "shenzhen-20260403-rapzwswi0i49yjk3ftscnh5enmf",
     "city": "深圳",
     "quote": "深圳注册公司补贴：深圳注册公司有创业补贴、场租补贴、应届生社保补贴、低息贷款等福利，需先失业登记再注册公司，缴纳 6 个月社保可领 1 万创业基金，缴纳 3 个月社保可领场租补贴，补贴金额根…",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-04-03 · 小圆",
     "source_url": "https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf"
   },
@@ -883,7 +883,7 @@
     "event_id": "shenzhen-20260403-rapzwswi0i49yjk3ftscnh5enmf",
     "city": "深圳",
     "quote": "\\* 核心思路：主打「变现+零粉」启动路径，适合还没有做起来私域公域流量的纯新手，不需要先做自媒体涨粉再成交",
-    "theme": "AI企服",
+    "theme": "流量增长",
     "note": "2026-04-03 · 小圆",
     "source_url": "https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf"
   },
@@ -891,23 +891,15 @@
     "event_id": "shenzhen-20260403-rapzwswi0i49yjk3ftscnh5enmf",
     "city": "深圳",
     "quote": "第二，通过群脉联盟花30元购买100个各类社群，拉活动参与者、测试产品需求，也可以花100多元找他人代发推广",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-04-03 · 小圆",
     "source_url": "https://scailabs.feishu.cn/wiki/RAPZwSWi0i49YJk3Ftscnh5enmf"
   },
   {
     "event_id": "guangzhou-20260403-09",
     "city": "广州",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "流量增长",
-    "note": "2026-04-03 · 老黄牛/黄牛老师",
-    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
-  },
-  {
-    "event_id": "guangzhou-20260403-09",
-    "city": "广州",
     "quote": "同时，要关注资产估值和市场时机，避免盲目跟风",
-    "theme": "流量增长",
+    "theme": "投资赛道",
     "note": "2026-04-03 · 老黄牛/黄牛老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -915,7 +907,7 @@
     "event_id": "guangzhou-20260403-09",
     "city": "广州",
     "quote": "强调选品要关注需求和竞争，创新要解决痛点，AI可辅助全流程运营",
-    "theme": "流量增长",
+    "theme": "跨境电商",
     "note": "2026-04-03 · 老黄牛/黄牛老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -931,7 +923,7 @@
     "event_id": "guangzhou-20260403-09",
     "city": "广州",
     "quote": "问题解答：针对参会者提出的投资、电商选品、内容创作等问题，进行详细解答和建议",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-04-03 · 老黄牛/黄牛老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -939,7 +931,7 @@
     "event_id": "guangzhou-20260403-09",
     "city": "广州",
     "quote": "背景信息重要性：学习任何领域都要了解上下文背景，如在亚马逊运营中，不同人对“出单很重要”的理解不同，产品经理强调不打广告出单验证产品，运营人员则主张先打广告促进成交以优化产品",
-    "theme": "流量增长",
+    "theme": "成交变现",
     "note": "2026-04-03 · 老黄牛/黄牛老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -963,6 +955,14 @@
     "event_id": "guangzhou-20260403-09",
     "city": "广州",
     "quote": "入界宜缓策略：做亚马逊时，即使赚钱也不要急于扩大规模，先与大卖交朋友，积累资源，避免因市场风险和税费问题导致成本过高",
+    "theme": "跨境电商",
+    "note": "2026-04-03 · 老黄牛/黄牛老师",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
+    "event_id": "guangzhou-20260403-09",
+    "city": "广州",
+    "quote": "创新应用：在生活中，如解决买房和结婚的矛盾，可采用投租分离、找中介物等方法",
     "theme": "流量增长",
     "note": "2026-04-03 · 老黄牛/黄牛老师",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
@@ -995,7 +995,7 @@
     "event_id": "guangzhou-20260330-11",
     "city": "广州",
     "quote": "说话人 2 分享了使用 AI 写公众号、做项目等经验，强调要与 AI 建立良好的互动关系，通过不断调教和训练，让 AI 更好地满足自己的需求",
-    "theme": "AI编程",
+    "theme": "内容IP",
     "note": "2026-03-30 · 涛哥 / 惰总",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1003,7 +1003,7 @@
     "event_id": "guangzhou-20260330-11",
     "city": "广州",
     "quote": "音频围绕关键词运营、AI应用、业务拓展及公众号运营等主题展开讨论，分享了相关经验和方法，为参会者提供了实用的思路和策略，内容如下",
-    "theme": "AI编程",
+    "theme": "内容IP",
     "note": "2026-03-30 · 涛哥 / 惰总",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1011,7 +1011,7 @@
     "event_id": "guangzhou-20260330-11",
     "city": "广州",
     "quote": "搜索路径与跳转逻辑：搜索同款相关内容时，会出现参考文案，搜索结果可能存在二跳或三跳情况，如从搜索页面跳转到某某发布网，再跳转到目标网站",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-30 · 涛哥 / 惰总",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1019,7 +1019,7 @@
     "event_id": "guangzhou-20260330-11",
     "city": "广州",
     "quote": "还可直接搜索公众号名字，通过二维码衔接，实现营销闭环",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-30 · 涛哥 / 惰总",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1035,7 +1035,7 @@
     "event_id": "guangzhou-20260330-11",
     "city": "广州",
     "quote": "应关注算法覆盖不到的长尾关键词，如在小红书搜索西藏旅游相关词，通过替换字母可找到竞争小的关键词",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-30 · 涛哥 / 惰总",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1051,7 +1051,7 @@
     "event_id": "guangzhou-20260327-12",
     "city": "广州",
     "quote": "关键决策：确定公司每周五开办分享会，并对分享会的形式和内容进行优化",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-03-27 · 美美子；新城",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1075,7 +1075,7 @@
     "event_id": "guangzhou-20260327-12",
     "city": "广州",
     "quote": "音频围绕公司分享会的改进建议以及播客的价值、制作、挑战等内容展开了深入讨论，内容如下",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-03-27 · 美美子；新城",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1083,7 +1083,7 @@
     "event_id": "guangzhou-20260327-12",
     "city": "广州",
     "quote": "日常收集：日常收集大家想要分享的内容并进行筛选，可利用全场榜和选题榜，让大家将想听的内容和想听的人写在便利贴上，将受欢迎的内容排进后续几个月的分享计划",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-03-27 · 美美子；新城",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1091,7 +1091,7 @@
     "event_id": "guangzhou-20260327-12",
     "city": "广州",
     "quote": "多样化分享：分享内容不局限于成功经验，也可以是小技巧或遇到的问题，形式多样，不要求做 PPT，时间也不限，以提高大家的分享意愿",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-03-27 · 美美子；新城",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1107,7 +1107,7 @@
     "event_id": "guangzhou-20260327-12",
     "city": "广州",
     "quote": "定义与本质：播客是用声音做的深度内容，核心本质是对话，可以是单口、双口或多人对话，关键在于真诚，是将日常聊天系统化、长期化沉淀下来的形式",
-    "theme": "流量增长",
+    "theme": "内容IP",
     "note": "2026-03-27 · 美美子；新城",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1117,14 +1117,6 @@
     "quote": "访谈中：提前一周左右或 3 - 5 天将访谈提纲发给嘉宾，优先选择线下录制，注意音质和环境安静，全然倾听嘉宾，适时提问，允许嘉宾偏题",
     "theme": "流量增长",
     "note": "2026-03-27 · 美美子；新城",
-    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
-  },
-  {
-    "event_id": "guangzhou-20260325-13",
-    "city": "广州",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI企服",
-    "note": "2026-03-25 · 涛哥",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
   {
@@ -1155,7 +1147,7 @@
     "event_id": "guangzhou-20260325-13",
     "city": "广州",
     "quote": "音频围绕 AI 应用、账号使用、内容创作、商业机会、AI 使用建议及创业避坑等方面展开讨论，分享了相关经验和见解，为参会者提供了实用的指导和启发，内容如下",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-03-25 · 涛哥",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1192,6 +1184,14 @@
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
   {
+    "event_id": "guangzhou-20260325-13",
+    "city": "广州",
+    "quote": "避免买号：买号可能存在质量问题，不建议通过购买账号的方式获取使用资格",
+    "theme": "AI企服",
+    "note": "2026-03-25 · 涛哥",
+    "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
+  },
+  {
     "event_id": "shenzhen-20260320-h4frwddbbi9soxk9jr5cdkmlnvh",
     "city": "深圳",
     "quote": "用 AI 做产品主要是套 API 提升效率，如利用百度云、阿里云等平台的 API 做小工具、插件等",
@@ -1203,7 +1203,7 @@
     "event_id": "shenzhen-20260320-h4frwddbbi9soxk9jr5cdkmlnvh",
     "city": "深圳",
     "quote": "做 AI 产品则是基于 AI 大模型，每个大模型背后相当于有一个团队在支持，能带来两层杠杆效应，更具变现潜力",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2026-03-20 · 阿民",
     "source_url": "https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh"
   },
@@ -1211,7 +1211,7 @@
     "event_id": "shenzhen-20260320-h4frwddbbi9soxk9jr5cdkmlnvh",
     "city": "深圳",
     "quote": "先找流量入口：对于先找产品方向还是先找流量入口的问题，认为先找流量入口更合适，但找到流量入口后仍需回头找适合的产品",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-20 · 阿民",
     "source_url": "https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh"
   },
@@ -1235,7 +1235,7 @@
     "event_id": "shenzhen-20260320-h4frwddbbi9soxk9jr5cdkmlnvh",
     "city": "深圳",
     "quote": "trust MR 平台：由推特网红创建，可验证产品收入并公布",
-    "theme": "AI编程",
+    "theme": "内容IP",
     "note": "2026-03-20 · 阿民",
     "source_url": "https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh"
   },
@@ -1243,7 +1243,7 @@
     "event_id": "shenzhen-20260320-h4frwddbbi9soxk9jr5cdkmlnvh",
     "city": "深圳",
     "quote": "可按 MRR、总收入、增长、流量、客单价等排序选择产品，建议从 MRR 稳定的产品中筛选独立开发者的产品作为参考",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-20 · 阿民",
     "source_url": "https://scailabs.feishu.cn/wiki/H4FrwdDBbi9soXk9jr5cdkMlnvh"
   },
@@ -1267,7 +1267,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "赚钱网址分享：将线稿出海、AI 生成 T 恤定制等赚钱机会的网址发送到群里，并提醒群成员不要外传",
-    "theme": "AI企服",
+    "theme": "跨境电商",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1283,7 +1283,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "而布局慢病管理、大健康、适老化产品、康养、智慧养老等符合年龄结构带来的趋势，出海也因全球化不可阻挡",
-    "theme": "AI企服",
+    "theme": "跨境电商",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1291,7 +1291,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "TCO 模型：TCO（total cost ownership）即拥有总成本，以办公电脑为例，Macbook 虽前期成本高但使用体验好、寿命长，可选择租机降低拥有总成本",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1299,7 +1299,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "很多人陷入产品自嗨，忽视流量获取，如咖啡、茶等产品，用户对产品差异感知不明显，先获取流量才能让产品涌现",
-    "theme": "AI企服",
+    "theme": "流量增长",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1315,7 +1315,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "全球化趋势：全球化不可阻挡，我国将有大量品牌出海，如玻璃电动车、天幕等已证明我国产品竞争力，应抓住出海机会",
-    "theme": "AI企服",
+    "theme": "跨境电商",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1331,7 +1331,7 @@
     "event_id": "guangzhou-20260320-14",
     "city": "广州",
     "quote": "选择事业的标准：TCO 模型：TCO（total cost ownership）即拥有总成本，以办公电脑为例，Macbook 虽前期成本高但使用体验好、寿命长，可选择租机降低拥有总成本",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-03-20 · 涛哥；香菜",
     "source_url": "https://hvwrkfob90.feishu.cn/wiki/GGybwWTBAiLbZWkn75uc3Ev1nKb?from=from_copylink"
   },
@@ -1355,7 +1355,7 @@
     "event_id": "shenzhen-20260313-kea7w9neoimoyxkrcwdc7xrbnsc",
     "city": "深圳",
     "quote": "普通人就盯住那个变化，然后在变化里面去抢入口，抢到入口之后去做流量，然后再去做产品，这可能是一条更好、更适合大部分人去变现的一个路径",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-13 · 子扬",
     "source_url": "https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc"
   },
@@ -1363,7 +1363,7 @@
     "event_id": "shenzhen-20260313-kea7w9neoimoyxkrcwdc7xrbnsc",
     "city": "深圳",
     "quote": "关键决策：普通人应盯住变化，在变化中抢入口、做流量、做产品以实现变现",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-13 · 子扬",
     "source_url": "https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc"
   },
@@ -1371,7 +1371,7 @@
     "event_id": "shenzhen-20260313-kea7w9neoimoyxkrcwdc7xrbnsc",
     "city": "深圳",
     "quote": "问题：如何找到适合普通人的变现路径",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2026-03-13 · 子扬",
     "source_url": "https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc"
   },
@@ -1387,7 +1387,7 @@
     "event_id": "shenzhen-20260313-kea7w9neoimoyxkrcwdc7xrbnsc",
     "city": "深圳",
     "quote": "先做低成本验证，如做单页网站、免费插件等，验证有流量和用户付费意愿后再深入做产品",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-03-13 · 子扬",
     "source_url": "https://scailabs.feishu.cn/wiki/KEa7w9NEOimOYxkRCWDc7xrbnsc"
   },
@@ -1411,7 +1411,7 @@
     "event_id": "shenzhen-20260306-uhhswsczcigzs4kszhbchuwvn0c",
     "city": "深圳",
     "quote": "本次会议围绕 AI 项目展开，雨文分享了其在 AI 出海项目中的经验，介绍了杠杆思维的应用、工作流的搭建以及 OpenClaw 的使用方法，旨在帮助参会者提升 AI 项目的效率，内容如下",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2026-03-06 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c"
   },
@@ -1419,7 +1419,7 @@
     "event_id": "shenzhen-20260306-uhhswsczcigzs4kszhbchuwvn0c",
     "city": "深圳",
     "quote": "概念：雨文提出时间杠杆是将时间变化为固定的资产，可以反复产出",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2026-03-06 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c"
   },
@@ -1427,7 +1427,7 @@
     "event_id": "shenzhen-20260306-uhhswsczcigzs4kszhbchuwvn0c",
     "city": "深圳",
     "quote": "例如建设 SaaS 网站，前期花时间建设，上线发布后有人订阅就会持续有收入",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2026-03-06 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c"
   },
@@ -1435,7 +1435,7 @@
     "event_id": "shenzhen-20260306-uhhswsczcigzs4kszhbchuwvn0c",
     "city": "深圳",
     "quote": "制作小程序，在小红书推广，一份产品可卖多份",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-03-06 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c"
   },
@@ -1467,7 +1467,7 @@
     "event_id": "shenzhen-20260306-uhhswsczcigzs4kszhbchuwvn0c",
     "city": "深圳",
     "quote": "AI 编程落地：与 GPT 沟通写出需求文档，明确业务逻辑和技术要求，再交给 code 制作网站或工具",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2026-03-06 · 雨文",
     "source_url": "https://scailabs.feishu.cn/wiki/UhHSwSCzCiGzs4ksZhBcHUwvn0c"
   },
@@ -1483,7 +1483,7 @@
     "event_id": "shenzhen-20260306-mrvuwucvmiphcokmhctcbr6sn3b",
     "city": "深圳",
     "quote": "本次会议围绕AI模型选择、部署方式、龙虾配置及知识库管理等内容进行了详细讲解和讨论，为参会者提供了全面的操作指南和应用思路，内容如下",
-    "theme": "AI编程",
+    "theme": "内容IP",
     "note": "2026-03-06 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/MRVuwUcvMiPHcOkmhctcBr6Sn3b"
   },
@@ -1571,7 +1571,7 @@
     "event_id": "shenzhen-20260130-v3vqwq3qhiqznmkd8azctacrnyf",
     "city": "深圳",
     "quote": "应对外界拉扯：在创业过程中，会面临身边关系的拉扯，如家庭、团队等",
-    "theme": "AI编程",
+    "theme": "组织协作",
     "note": "2026-01-30 · M叔",
     "source_url": "https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf"
   },
@@ -1595,7 +1595,7 @@
     "event_id": "shenzhen-20260130-v3vqwq3qhiqznmkd8azctacrnyf",
     "city": "深圳",
     "quote": "M叔以自己发现移民项目和税筹赛道为例，说明遇到好机会时会有兴奋感，身体会有明显反应",
-    "theme": "AI编程",
+    "theme": "投资赛道",
     "note": "2026-01-30 · M叔",
     "source_url": "https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf"
   },
@@ -1603,7 +1603,7 @@
     "event_id": "shenzhen-20260130-v3vqwq3qhiqznmkd8azctacrnyf",
     "city": "深圳",
     "quote": "聚焦精力：一旦确定好赛道，就要聚焦精力，排除杂事干扰",
-    "theme": "AI编程",
+    "theme": "投资赛道",
     "note": "2026-01-30 · M叔",
     "source_url": "https://scailabs.feishu.cn/wiki/V3vQwQ3qHiQZNmkD8aZctacrnYf"
   },
@@ -1635,7 +1635,7 @@
     "event_id": "shenzhen-20260126-textwiajyi52k6kq2dscvlgmnbe",
     "city": "深圳",
     "quote": "不管你们将来是要合伙，还是要去招员工，甚至搞定亲子关系，还有搞定合伙关系，其实一切的基础首先是你了解对方，你了解自己",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-01-26 · 醒醒老师",
     "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
   },
@@ -1675,15 +1675,7 @@
     "event_id": "shenzhen-20260126-textwiajyi52k6kq2dscvlgmnbe",
     "city": "深圳",
     "quote": "团队协作与人才配置：不同阶段的团队需要不同类型的人才，应根据业务需求和阶段特点，选择互补的人才，以提高团队的稳定性和效率",
-    "theme": "AI企服",
-    "note": "2026-01-26 · 醒醒老师",
-    "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
-  },
-  {
-    "event_id": "shenzhen-20260126-textwiajyi52k6kq2dscvlgmnbe",
-    "city": "深圳",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2026-01-26 · 醒醒老师",
     "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
   },
@@ -1692,6 +1684,14 @@
     "city": "深圳",
     "quote": "本次会议围绕个人职业发展迷茫、焦虑问题展开，邀请邢星老师分享盖洛普工具的应用",
     "theme": "AI企服",
+    "note": "2026-01-26 · 醒醒老师",
+    "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
+  },
+  {
+    "event_id": "shenzhen-20260126-textwiajyi52k6kq2dscvlgmnbe",
+    "city": "深圳",
+    "quote": "邢星老师结合自身经历与案例，阐述盖洛普在自我认知、项目选择、团队协作等方面的作用，还解答了参会者关于报告解读、才干运用等疑问，内容如下",
+    "theme": "内容IP",
     "note": "2026-01-26 · 醒醒老师",
     "source_url": "https://scailabs.feishu.cn/wiki/TeXTwiaJYi52K6kQ2DscvlgmnBe"
   },
@@ -1723,7 +1723,7 @@
     "event_id": "shenzhen-20260116-ubclwl6kpimwfrkto5bcrvxlnkc",
     "city": "深圳",
     "quote": "关键决策：做网站应多方面综合考量，以实现目标收入",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2026-01-16 · 哥飞",
     "source_url": "https://scailabs.feishu.cn/wiki/UBcLwl6KPiMWFRkTo5bcrvXlnKc"
   },
@@ -1739,7 +1739,7 @@
     "event_id": "shenzhen-20260116-ubclwl6kpimwfrkto5bcrvxlnkc",
     "city": "深圳",
     "quote": "决策依据：通过实际案例和数据说明，多方面综合考虑选品、网站优化、定价、流量获取等因素，可实现盈利目标",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-01-16 · 哥飞",
     "source_url": "https://scailabs.feishu.cn/wiki/UBcLwl6KPiMWFRkTo5bcrvXlnKc"
   },
@@ -1747,7 +1747,7 @@
     "event_id": "shenzhen-20260116-ubclwl6kpimwfrkto5bcrvxlnkc",
     "city": "深圳",
     "quote": "新词挖掘时，新站和老站内页一起抓，新站聚焦关键词易拿排名，老站加内页可增加流量来源",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2026-01-16 · 哥飞",
     "source_url": "https://scailabs.feishu.cn/wiki/UBcLwl6KPiMWFRkTo5bcrvXlnKc"
   },
@@ -1771,7 +1771,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "赛道选择重要性：强调做垂直小号最好垂直于某一个行业赛道，因为搜索词已被部分人占领，新的赛道有更多机会，如恩曼相关的 AI 工作流 n 端赛道，圈友饼干哥哥在该赛道的公众号排名靠前",
-    "theme": "AI企服",
+    "theme": "流量增长",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1779,7 +1779,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "成为垂直领域表达者：说话人 2 认为，若有业务且喜欢内容，可做垂直领域的表达者，将业务与热点结合",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1787,7 +1787,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "例如做身体护理产品的，可从热点分析下沉到业务，关注身体、向内求，成为业务放大器和垂直赛道小 QA",
-    "theme": "AI企服",
+    "theme": "投资赛道",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1803,7 +1803,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "先学习表达：说话人 2 表示，无业务且不喜欢内容的，应降低预期，先学习表达，每周至少写一篇文章，不在乎阅读量，注重表达提炼",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1811,7 +1811,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "吸引目标人群：说话人 1 强调，IP 要有吸引力，关键词很关键，要吸引目标人群",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1827,7 +1827,7 @@
     "event_id": "shenzhen-20251229-mes0wil6ai7zqckbki9ckxfmnrf",
     "city": "深圳",
     "quote": "提供获得感：输出新内容优先给铁杆粉丝，让他们有明显的获得感",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-29 · 七天",
     "source_url": "https://scailabs.feishu.cn/wiki/MEs0wiL6Ai7ZQCkBKi9ckXfMnRf"
   },
@@ -1843,7 +1843,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "先成为专家，做 IP 只有两步，第一步先成为专家，用一到两年的时间先成为专家，第二步让更多人知道",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1851,7 +1851,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "精华帖不是写内容写得好的人才写出来的，精华帖是做项目做得好的人才能写的出来的，项目是 1，内容是背后的加分项 0",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1859,7 +1859,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "生产精华帖的方法论是 IPO，即 insight（洞察）、process（过程）、opportunity（机会），一个能跑通的、有洞察、有新知的，仍然有机会的，才是生财认为的好内容",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1867,7 +1867,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "工作流展示：说话人 1 展示了多个垂直平台的工作流，如哔哩哔哩、open APP、running Hub 等，介绍了工作流的功能和应用场景，如批量图生图、文字生成视频等",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1875,7 +1875,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "业务模式：说话人 1 分享了自己的业务模式，包括定制工作流、API 收费、AI 培训等，强调了精准获客和客户预期管理的重要性",
-    "theme": "AI企服",
+    "theme": "流量增长",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1883,7 +1883,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "精华帖生产：说话人 9 分享了生产精华帖的方法论，即 IPO 模型，包括项目经历、认知洞察和机会复制三个维度",
-    "theme": "AI企服",
+    "theme": "内容IP",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1891,15 +1891,7 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "航海和深海圈：说话人 5 介绍了生财航海和深海圈的发展情况，鼓励大家在联合办公场域中多多交流，分享好的项目和机会",
-    "theme": "AI企服",
-    "note": "2025-12-26 · 来来老师",
-    "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
-  },
-  {
-    "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
-    "city": "深圳",
-    "quote": "本次会议为分享类会议，无关键决策",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
   },
@@ -1907,6 +1899,14 @@
     "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
     "city": "深圳",
     "quote": "工作流参数调整：当客户对生成的图片不满意时，说话人1会在云端调整工作流参数",
+    "theme": "成交变现",
+    "note": "2025-12-26 · 来来老师",
+    "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
+  },
+  {
+    "event_id": "shenzhen-20251226-dsbewh8bniofpqk9gafch92wnse",
+    "city": "深圳",
+    "quote": "若部分图片不符合要求，会根据比例判断是否需要调整，如 100 张图片中有 30 张不好看，则需调整参数",
     "theme": "AI企服",
     "note": "2025-12-26 · 来来老师",
     "source_url": "https://scailabs.feishu.cn/wiki/DSbEwh8BNiOfpQk9gafch92WnSe"
@@ -1915,7 +1915,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "想要从自雇者跨越到雇人者阶段，最核心的是加杠杆，如利用媒体杠杆和代码杠杆，让一份资料反复售卖，实现真正的自由职业",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -1931,7 +1931,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "做公司就是在调节 CAC（获客成本）和 LTV（客户终身价值）这两个数值，产品的一切动作都是为了降低 CAC、提升 LTV，LTV 减 CAC 就是老板赚取的部分",
-    "theme": "AI企服",
+    "theme": "流量增长",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -1939,7 +1939,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "关键决策：联合办公项目扩大规模，开设分站",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -1947,7 +1947,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "决策依据：联合办公项目切中了创业者在 1 到 5 人阶段从 0 到 1 跑通项目后需要放大的需求，市场有增长潜力",
-    "theme": "AI企服",
+    "theme": "组织协作",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -1963,7 +1963,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "创业感悟与经验积累：说话人 1 表示自己深刻理解创业从 0 到 1 以及从 1 到 10 过程中会遇到的问题，并计划总结经验制作课程，助力生产类客户",
-    "theme": "AI企服",
+    "theme": "成交变现",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -1971,7 +1971,7 @@
     "event_id": "shenzhen-20251219-jxq0worl4ihh0bk8umqcoqkbnob",
     "city": "深圳",
     "quote": "媒体与代码杠杆：说话人 1 认为媒体杠杆和代码杠杆是实现自由职业的关键，如制作 AI 产品、建立 IP 和课程，利用杠杆实现一份资料反复销售，带来持续营收",
-    "theme": "AI企服",
+    "theme": "AI编程",
     "note": "2025-12-19 · 许老师",
     "source_url": "https://scailabs.feishu.cn/wiki/Jxq0wOrl4ihH0bk8UMQcOqkBnob"
   },
@@ -2003,7 +2003,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "本次会议围绕保险销售及朋友圈营销展开，说话人 1 分享了自身经验和见解，涵盖朋友圈营销的重要性、销售业务的核心要点、业务运营的关键策略等内容，旨在为与会者提供高客单价业务和私域营销的思路与方…",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2011,7 +2011,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "流量汇聚点：说话人 1 提出，所有公域和商域的流量最终都要导流到私域，而朋友圈是私域向外展示的关键，是互联网的尽头",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2019,7 +2019,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "例如，很多人通过朋友圈实现了高额盈利，可见其在流量转化和业务拓展方面的重要性",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2027,7 +2027,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "通过在朋友圈展示个人特色和专业能力，可以吸引潜在客户，建立信任关系",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2035,7 +2035,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "核心竞争力在于本人：在高客单价业务中，产品可复制，而本人是核心竞争力",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2043,7 +2043,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "以保险业务为例，虽然保险产品大多是标品，但通过个人独特的故事、成长经历和专业度，可以让客户觉得选择自己购买具有独特价值，将标品转化为“非标品”",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2051,7 +2051,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "二是帮助销售人员更清晰地认知自己的核心优势，如自己擅长私域和社群运营，而不擅长公域内容创作",
-    "theme": "AI编程",
+    "theme": "流量增长",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },
@@ -2059,7 +2059,7 @@
     "event_id": "shenzhen-20250109-li3twc9o9i1huykx0sscpqvanld",
     "city": "深圳",
     "quote": "例如，为了实现月收入目标，会拉群并承诺若未达成则给群内每人发 1 万红包",
-    "theme": "AI编程",
+    "theme": "成交变现",
     "note": "2025-01-09 · 左烨紫",
     "source_url": "https://scailabs.feishu.cn/wiki/LI3twc9O9i1HUykX0sScPqvanLd"
   },

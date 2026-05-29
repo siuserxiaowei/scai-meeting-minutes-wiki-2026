@@ -92,9 +92,12 @@ def summary_block(md):
 
 
 def infer_theme(text, tags=None):
-    source = f"{' '.join(tags or [])} {text}"
+    source = text or ""
     for theme, words in THEME_RULES:
         if any(word.lower() in source.lower() for word in words):
+            return theme
+    for theme, _ in THEME_RULES:
+        if theme in (tags or []):
             return theme
     return (tags or ["会议观点"])[0]
 
@@ -279,6 +282,8 @@ def quote_candidates(md, event, insights, decisions, limit=9):
     for value in found:
         if not value or value in seen:
             continue
+        if re.search(r"无关键决策|本次会议为分享类会议|AI-generated|智能纪要由 AI", value):
+            continue
         seen.add(value)
         quotes.append(
             {
@@ -423,6 +428,279 @@ def links_lines(event):
     return "\n".join(f"- [{link['label']}]({link['url']}) `{link.get('kind', 'external')}`" for link in links)
 
 
+def event_mode(event):
+    tags = set(event.get("tags") or [])
+    role_count = len(event.get("roles") or [])
+    text = f"{event.get('title','')} {event.get('topic','')} {event.get('summary','')}"
+    if role_count >= 3 or re.search(r"诊断|问诊|项目交流|破冰|私董", text):
+        return "项目诊断"
+    if "投资" in tags or "投资赛道" in tags or re.search(r"投资|赛道|基金|股票|龙头", text):
+        return "赛道判断"
+    if "AI编程" in tags or re.search(r"编程|App|小程序|代码|网站", text):
+        return "产品实操"
+    if "成交变现" in tags or "流量增长" in tags:
+        return "增长变现"
+    return "创业复盘"
+
+
+def data_points(md, limit=8):
+    found = []
+    patterns = [
+        r"[^。；\n]{0,24}\d+(?:\.\d+)?\s*(?:万|亿|千|%|人|单|天|年|月|小时|分钟|个|次|元|美金|美元)[^。；\n]{0,36}",
+        r"[^。；\n]{0,24}[一二三四五六七八九十]+(?:个|种|类|层|步|年|月|天)[^。；\n]{0,36}",
+    ]
+    for pattern in patterns:
+        for match in re.findall(pattern, md or ""):
+            item = clean_text(match, 120)
+            if re.search(r"录音时间|智能纪要|GMT|周[一二三四五六日天]", item):
+                continue
+            if item and item not in found:
+                found.append(item)
+            if len(found) >= limit:
+                return found
+    return found
+
+
+def choose_tools(event, actions):
+    text = " ".join(
+        [
+            event.get("title", ""),
+            event.get("topic", ""),
+            event.get("summary", ""),
+            " ".join(event.get("tags") or []),
+            " ".join(item.get("detail", "") for item in actions[:8]),
+        ]
+    )
+    rules = [
+        ("飞书多维表格 / 案例库", ["飞书", "多维表格", "案例库", "知识库"]),
+        ("高质量 PPT / 物料包", ["PPT", "五合一", "资料", "物料"]),
+        ("小红书 / 公众号 / 视频号", ["小红书", "公众号", "视频号", "自媒体"]),
+        ("AI 编程与网站工具", ["编程", "代码", "网站", "App", "小程序", "工具"]),
+        ("AI 生图 / 自动回复 / 工作流", ["生图", "自动回复", "工作流", "自动化"]),
+        ("地推 / 混群 / 私域", ["地推", "混群", "私域", "社群"]),
+        ("指数基金 / 龙头公司清单", ["指数", "基金", "股票", "龙头"]),
+        ("成交路径表 / 客户访谈表", ["成交", "客户", "转化", "定价"]),
+    ]
+    tools = []
+    for name, words in rules:
+        if any(word.lower() in text.lower() for word in words):
+            tools.append(name)
+    return tools[:6] or ["资料库复盘表", "7 天验证清单", "客户问题清单"]
+
+
+def learning_intro(event, actions):
+    mode = event_mode(event)
+    tags = "、".join((event.get("tags") or [])[:5])
+    topic = event.get("topic") or event.get("title")
+    first = (event.get("key_takeaways") or [event.get("summary", "")])[0]
+    if mode == "项目诊断":
+        return (
+            f"这篇的学习价值不在于记住所有人的发言，而是学一套“项目问诊”的拆法：先看每个人的业务模型，再看卡点究竟在流量、成交、交付、定价还是组织，最后把建议改写成 7 天内能验证的动作。\n\n"
+            f"你可以把它当成一张创业体检表。读的时候重点看三件事：第一，已有资源能不能复用；第二，赚钱对象是否足够具体；第三，下一步动作是否足够接近成交。本文覆盖的高频主题是：{tags}。\n\n"
+            f"本场最先值得带走的一句话是：{first}"
+        )
+    if mode == "赛道判断":
+        return (
+            f"这篇适合用来训练“赛道判断”。它讨论的不是某个单点机会，而是如何判断一个方向是否值得长期投入：赛道是否足够大、你和龙头企业是什么关系、上中下游谁先赚钱、个人应该做投资人、创业者还是生态伙伴。\n\n"
+            f"读完以后，你应该能得到一张判断清单：哪些方向值得研究，哪些只是热闹；哪些动作是认知型动作，哪些动作是执行型动作。主题关键词是：{tags}。\n\n"
+            f"本场最先值得带走的一句话是：{first}"
+        )
+    if mode == "产品实操":
+        return (
+            f"这篇适合当成产品实操复盘读。不要只看“用了什么工具”，而要看从需求、开发、测试、发布、获客到变现的链路有没有闭环。\n\n"
+            f"读的时候把每个判断都翻译成自己的 SOP：我怎么找需求、怎么做第一个版本、怎么验收、怎么上线、怎么拿到第一批用户。主题关键词是：{tags}。\n\n"
+            f"本场最先值得带走的一句话是：{first}"
+        )
+    if mode == "增长变现":
+        return (
+            f"这篇适合训练增长和变现视角。重点不是“内容怎么写”，而是谁是明确客户、哪个渠道能带来信任、前端内容如何承接到后端产品、怎么定价和成交。\n\n"
+            f"读的时候把所有建议拆成四类：获客、信任、产品、成交。只要其中一环不清楚，项目就会变成热闹但不赚钱。主题关键词是：{tags}。\n\n"
+            f"本场最先值得带走的一句话是：{first}"
+        )
+    return (
+        f"这篇适合当成创业复盘读。不要只读摘要，而要把它拆成“为什么值得做、具体怎么做、靠什么工具放大、下一步怎么验证”。\n\n"
+        f"本文主题是“{topic}”，高频关键词是：{tags}。读完以后最重要的不是收藏，而是选一个动作在 7 天内验证。\n\n"
+        f"本场最先值得带走的一句话是：{first}"
+    )
+
+
+def framework_table(event, actions):
+    insights = event.get("insights") or []
+    roles = event.get("roles") or []
+    tools = choose_tools(event, actions)
+    mode = event_mode(event)
+    dao = {
+        "项目诊断": "项目不是缺想法，而是缺一条足够靠近成交的验证路径。",
+        "赛道判断": "先判断赛道和龙头，再判断自己是投资、创业、加入还是做生态伙伴。",
+        "产品实操": "AI 降低开发门槛后，真正的壁垒变成需求判断、验收和分发。",
+        "增长变现": "内容只有接到明确客户、产品和成交路径上，才会变成生意。",
+        "创业复盘": "复盘的价值是把别人走过的路拆成自己能执行的动作。",
+    }[mode]
+    fa = insights[0]["detail"] if insights else event.get("summary", "")
+    shu_source = actions[0]["detail"] if actions else (insights[1]["detail"] if len(insights) > 1 else "先把本场观点改写成自己的 7 天验证清单。")
+    qi = "；".join(tools[:4])
+    rows = [
+        ("道", dao, f"读完先问：这件事为什么值得做？我的项目是不是也卡在同一个底层问题上？"),
+        ("法", fa, "把这个判断改成自己的判断清单，不要直接照抄结论。"),
+        ("术", shu_source, "选一个最小动作，在 7 天内验证，而不是继续收集资料。"),
+        ("器", qi, "把工具当放大器，不要把工具当商业模式本身。"),
+    ]
+    return "\n".join(f"| {level} | {clean_text(content, 220)} | {clean_text(use, 160)} |" for level, content, use in rows)
+
+
+def seven_field_card(event, actions, quotes):
+    roles = event.get("roles") or []
+    insights = event.get("insights") or []
+    points = data_points(event.get("notes_md", ""), limit=5)
+    tools = choose_tools(event, actions)
+    mode = event_mode(event)
+    guest = event.get("speaker") or (roles[0]["name"] if roles else "未标注")
+    real_case = roles[0]["role"] if roles else (insights[0]["detail"] if insights else event.get("summary", ""))
+    result = "；".join(points[:3]) if points else "原纪要未给出明确量化结果，重点看方法和行动路径。"
+    story = roles[1]["role"] if len(roles) > 1 else (insights[1]["detail"] if len(insights) > 1 else event.get("summary", ""))
+    method = insights[0]["detail"] if insights else event.get("summary", "")
+    quote = quotes[0]["quote"] if quotes else (event.get("key_takeaways") or [""])[0]
+    rows = [
+        ("1. 嘉宾/场景", f"{guest} · {event.get('city')} · {event.get('date') or '未标日期'}。这是一场{mode}型内容，主题是：{event.get('topic') or event.get('title')}。"),
+        ("2. 真实问题", clean_text(real_case, 220)),
+        ("3. 关键结果/数据", clean_text(result, 220)),
+        ("4. 核心故事", clean_text(story, 220)),
+        ("5. 方法框架", clean_text(method, 260)),
+        ("6. 工具/抓手", "；".join(tools[:5])),
+        ("7. 可复用金句", clean_text(quote, 180)),
+    ]
+    return "\n".join(f"- **{name}**：{value}" for name, value in rows)
+
+
+def method_cards(event):
+    insights = (event.get("insights") or [])[:6]
+    if not insights:
+        return "- 暂无足够方法卡；先阅读完整整理稿。"
+    lines = []
+    for idx, item in enumerate(insights, 1):
+        theme = infer_theme(f"{item['title']} {item['detail']}", [])
+        detail = item["detail"]
+        apply = "把它改写成一个可观察指标，再找一个低成本场景试一次。"
+        if theme == "AI企服":
+            apply = "先选一个具体行业客户，列出他们每天重复、耗人、影响成交的 3 个流程，再设计一个演示案例。"
+        elif theme == "流量增长":
+            apply = "先找 10 个同行爆款，拆标题、承接页和成交入口，然后用自己的案例重写一版。"
+        elif theme == "成交变现":
+            apply = "把客户从看到你到付费的路径画出来，每个节点只优化一个最可控动作。"
+        elif theme == "跨境电商":
+            apply = "先拆选品、素材、上架、履约、复购五个环节，找到最短能产生订单的验证链路。"
+        elif theme == "投资赛道":
+            apply = "用赛道规模、龙头位置、上下游利润、个人角色四个问题重评自己的方向。"
+        elif theme == "AI编程":
+            apply = "把需求写成 PRD，用 AI 做第一版，再用截图、报错和用户反馈逼近可用版本。"
+        lines.append(f"### 方法 {idx}：{item['title']}\n\n- **核心意思**：{detail}\n- **你可以怎么用**：{apply}\n- **不要误读成**：看懂观点就算学会；真正的学习是把它变成一次验证。")
+    return "\n\n".join(lines)
+
+
+def seven_day_homework(event, actions):
+    mode = event_mode(event)
+    base = [item["detail"] for item in actions[:7]]
+    defaults = {
+        "项目诊断": [
+            "把自己的项目写成一页纸：客户是谁、卖什么、为什么现在买、在哪里成交。",
+            "列出当前最卡的一环：流量、信任、产品、定价、交付、团队，只选一个。",
+            "找 5 个真实客户或同行案例，记录他们真实付费的理由。",
+            "做一个最小销售物料：案例页、报价页、演示视频或私域话术。",
+            "用 1 个渠道测试获客，不换渠道，只记录咨询数和有效对话数。",
+            "复盘成交链路，把掉线最多的一步改掉。",
+            "决定继续、暂停还是换打法，并写下证据。"
+        ],
+        "赛道判断": [
+            "列出你关注的 3 个赛道，写出每个赛道的上游、中游、下游。",
+            "找每个赛道的 3 家龙头，判断它们靠什么赚钱。",
+            "写清楚你和龙头的关系：加入、投资、服务、做生态、还是避开。",
+            "用 10 年视角问：这个方向十年后还存在吗？谁会赚最大利润？",
+            "找 3 个已经在这个方向赚到钱的人，记录他们的共同点。",
+            "选择一个最小参与方式：内容、服务、工具、渠道、投资观察清单。",
+            "写下不做的理由，避免只因为热闹就入场。"
+        ],
+        "产品实操": [
+            "从真实抱怨里挑一个需求，不从自己的灵感开始。",
+            "写 8 行 PRD：用户、场景、痛点、输入、输出、边界、验收、推广。",
+            "用 AI 做第一个可演示版本，不追求完整。",
+            "找 3 个目标用户试用，记录他们卡住的位置。",
+            "修一个最影响使用的缺陷。",
+            "做一个发布页或演示帖，测试是否有人愿意留下联系方式。",
+            "复盘：这个产品值得继续做，还是只值得沉淀成经验。"
+        ],
+        "增长变现": [
+            "写清楚赚钱对象，不写泛泛人群。",
+            "拆 10 个同行案例，记录他们怎么吸引、信任、成交。",
+            "做 3 条内容，只服务一个成交目标。",
+            "设计一个承接入口：私信、表单、群、咨询、资料包。",
+            "给产品定一个明确价格或试用条件。",
+            "找 10 个潜在客户对话，记录真实异议。",
+            "复盘哪句话、哪个案例、哪个承诺最接近成交。"
+        ],
+        "创业复盘": [
+            "把本篇 3 个判断抄到自己的项目旁边，逐条判断是否适用。",
+            "挑一个最像自己的案例，写出相同点和不同点。",
+            "列出一个可以本周做的小动作。",
+            "找一个外部反馈来源，不靠自己想。",
+            "完成一次小验证，并记录结果。",
+            "根据结果改下一步，不新增大计划。",
+            "写一段复盘：我学到的不是观点，而是什么行动会变。"
+        ],
+    }[mode]
+    merged = []
+    for item in base:
+        cleaned = clean_text(item, 150)
+        if cleaned and cleaned not in merged:
+            merged.append(cleaned)
+    for item in defaults:
+        if item not in merged:
+            merged.append(item)
+    return "\n".join(f"- **Day {idx}**：{item}" for idx, item in enumerate(merged[:7], 1))
+
+
+def reflection_questions(event):
+    mode = event_mode(event)
+    common = [
+        "我现在做的事，最像本篇里的哪个案例？相同点和不同点分别是什么？",
+        "这篇里哪一个判断如果是真的，会直接改变我下一步动作？",
+        "我有没有把“工具能力”误当成“商业模式”？",
+        "我能不能用 1 周时间验证一个最小动作，而不是继续研究？",
+    ]
+    extra = {
+        "项目诊断": [
+            "我的客户是谁？他为什么现在必须解决这个问题？",
+            "我的项目卡在流量、信任、产品、定价、交付、团队中的哪一环？",
+            "我有哪些资源其实可以复用，但一直没有明确对外表达？",
+            "如果只能做一个销售物料，我应该做案例页、报价页还是演示视频？",
+        ],
+        "赛道判断": [
+            "这个赛道 10 年后还会存在吗？利润会集中在哪一层？",
+            "我是更适合投资、加入龙头、做生态服务，还是自己创业？",
+            "我现在的认知是来自一线赚钱者，还是来自正确但无用的旁观观点？",
+            "如果龙头拿走大部分利润，我能分到哪一小块？",
+        ],
+        "产品实操": [
+            "这个需求来自真实用户，还是来自我的想象？",
+            "我有没有明确验收标准，而不是只让 AI 一直改？",
+            "上线后第一个用户从哪里来？",
+            "我准备靠什么持续分发，而不是只发一次朋友圈？",
+        ],
+        "增长变现": [
+            "内容后面承接的产品是什么？价格是多少？",
+            "客户为什么信我，而不是信同行？",
+            "我最短的成交路径有几步？哪一步损耗最大？",
+            "我是在做影响力，还是在做可收钱的信任？",
+        ],
+        "创业复盘": [
+            "这篇里的哪条经验可以变成我的 SOP？",
+            "我能不能找到一个真实人群，而不是泛泛方向？",
+            "我现在应该加速、收缩，还是换验证方式？",
+            "我下一次复盘时，应该拿什么结果来判断进展？",
+        ],
+    }[mode]
+    return "\n".join(f"- {item}" for item in (common + extra))
+
+
 def event_page(event, event_actions, event_quotes):
     tags = "、".join(event.get("tags") or [])
     takeaways = event.get("key_takeaways") or []
@@ -450,6 +728,32 @@ updated: {datetime.now().strftime('%Y-%m-%d')}
 ## 一句话摘要
 
 {event.get('summary') or '暂无摘要。'}
+
+## 这篇真正能学什么
+
+{learning_intro(event, event_actions)}
+
+## 道法术器拆解
+
+| 层 | 本场对应内容 | 你可以怎么用 |
+|---|---|---|
+{framework_table(event, event_actions)}
+
+## 7 字段学习卡
+
+{seven_field_card(event, event_actions, event_quotes)}
+
+## 可直接复用的方法
+
+{method_cards(event)}
+
+## 7 天作业
+
+{seven_day_homework(event, event_actions)}
+
+## 回到自己业务的追问
+
+{reflection_questions(event)}
 
 ## 本场最值得带走的判断
 
