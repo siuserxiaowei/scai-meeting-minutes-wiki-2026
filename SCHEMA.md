@@ -6,9 +6,9 @@
 
 ## Data Files
 
-- `data/events.json`: 会议条目，字段包括 `id, city, date, title, speaker, topic, source_url, source_type, summary, notes_md, chapters, decisions, links, tags, status`。
-- `data/actions.json`: 行动项，字段包括 `event_id, owner, title, detail, priority, source_url`。
-- `data/quotes.json`: 金句，字段包括 `event_id, quote, theme, note`。
+- `data/events.json`: 会议条目，字段包括 `id, city, date, title, speaker, topic, source_url, source_type, summary, notes_md, chapters, decisions, links, tags, status, insights, roles, key_takeaways, content_score`。
+- `data/actions.json`: 行动项，字段包括 `event_id, owner, title, detail, priority, theme, event_title, event_date, source_url`。
+- `data/quotes.json`: 金句与观点卡，字段包括 `event_id, quote, theme, note, source_url`。
 - `data/site.config.json`: 站点配置、来源链接和模块开关。
 
 ## Conventions

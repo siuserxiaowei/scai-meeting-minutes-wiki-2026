@@ -252,6 +252,7 @@ button,input,select{font:inherit}
 .insight,.event-card,.action-card,.panel{
   border:1px solid var(--line);border-radius:8px;background:rgba(23,27,23,.82);
   box-shadow:var(--shadow);
+  min-width:0;overflow-wrap:anywhere;
 }
 .insight{padding:18px}
 .insight h4{margin:0 0 8px;font-size:18px}
@@ -270,11 +271,14 @@ button,input,select{font:inherit}
   height:42px;border-radius:8px;border:1px solid var(--line);background:#10130f;color:var(--ink);padding:0 12px;min-width:0;
 }
 .event-card{
-  display:grid;gap:12px;text-decoration:none;padding:16px;min-height:246px;
+  display:grid;gap:12px;text-decoration:none;padding:16px;min-height:300px;
 }
 .event-card:hover{border-color:rgba(169,212,110,.7);background:rgba(169,212,110,.07)}
 .event-card time{font:800 13px/1 "IBM Plex Mono",monospace;color:var(--gold)}
 .event-card h4{margin:0;font-size:18px;line-height:1.42}
+.event-summary{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.event-counts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.event-counts span{border:1px solid var(--line);border-radius:7px;padding:7px 6px;color:#d8d1b8;font-size:12px;text-align:center;background:rgba(255,255,255,.035)}
 .meta{display:flex;flex-wrap:wrap;gap:6px}
 .pill{border-radius:999px;padding:5px 8px;background:rgba(112,208,195,.12);color:#aee9df;font-size:12px}
 .pill.gold{background:rgba(242,189,82,.14);color:#f4d28b}
@@ -283,14 +287,21 @@ button,input,select{font:inherit}
 .action-card{padding:16px;min-height:180px}
 .action-card time{font:800 12px/1 "IBM Plex Mono",monospace;color:var(--gold)}
 .action-card h4{margin:10px 0 8px;font-size:17px}
+.action-lanes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}
+.action-lane{border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.035);padding:14px;min-width:0;overflow-wrap:anywhere}
+.action-lane h4{margin:0 0 12px;color:var(--gold)}
+.action-lane ol{margin:0;padding-left:20px;color:#d8d1b8;line-height:1.75}
+.action-lane li{margin:0 0 8px}
 .quote-wall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .quote-card{
   min-height:250px;border-radius:8px;border:1px solid rgba(242,189,82,.36);
   background:linear-gradient(145deg,rgba(242,189,82,.16),rgba(112,208,195,.07)),rgba(255,255,255,.04);
   padding:22px;display:grid;align-content:space-between;gap:18px;
+  min-width:0;overflow-wrap:anywhere;
 }
-.quote-card blockquote{margin:0;font-family:"Noto Serif SC",serif;font-size:25px;line-height:1.32;font-weight:900}
+.quote-card blockquote{margin:0;font-family:"Noto Serif SC",serif;font-size:25px;line-height:1.32;font-weight:900;overflow-wrap:anywhere}
 .quote-card .tag{color:var(--gold);font-weight:800;font-size:13px}
+.quote-card p{margin:8px 0 0;color:#c9c2a7;line-height:1.55;font-size:13px}
 .article{
   max-width:920px;
   border:1px solid var(--line);
@@ -314,6 +325,9 @@ button,input,select{font:inherit}
 .article img{max-width:100%;height:auto;border-radius:8px}
 .empty{padding:24px;color:var(--muted);border:1px dashed var(--line);border-radius:8px}
 .scrim{display:none}
+@media (min-width:981px) and (max-width:1380px){
+  .quote-wall,.action-board,.action-lanes{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 @media (max-width:980px){
   html,body{overflow-x:hidden}
   .layout{display:block}
@@ -324,6 +338,8 @@ button,input,select{font:inherit}
   .topbar{padding:0 14px}
   .main{padding:24px 16px 64px}
   .metric-grid,.insight-grid,.event-grid,.visual-grid,.action-board,.quote-wall{grid-template-columns:1fr}
+  .action-lanes{grid-template-columns:1fr}
+  .event-counts{grid-template-columns:repeat(2,minmax(0,1fr))}
   .tools{grid-template-columns:1fr}
   .hero{min-height:auto;padding-top:20px}
   .hero h2{font-size:clamp(38px,14vw,62px)}
@@ -366,6 +382,14 @@ const DATA = __PAYLOAD__;
 const {config, pages, events, actions, quotes, groups, cityCounts, statusCounts, tagCounts} = DATA;
 const byRoute = Object.fromEntries(pages.map(page => [page.route, page]));
 const byEvent = Object.fromEntries(events.map(event => [event.id, event]));
+const actionsByEvent = actions.reduce((acc, item) => {
+  (acc[item.event_id] ||= []).push(item);
+  return acc;
+}, {});
+const quotesByEvent = quotes.reduce((acc, item) => {
+  (acc[item.event_id] ||= []).push(item);
+  return acc;
+}, {});
 const nav = document.getElementById('nav');
 const app = document.getElementById('app');
 const crumb = document.getElementById('crumb');
@@ -438,6 +462,13 @@ function barChart(counter){
 
 function eventCard(event){
   const tags = (event.tags || []).slice(0, 4).map(tag => `<span class="pill">${tag}</span>`).join('');
+  const firstTakeaway = (event.key_takeaways || [])[0] || event.summary || event.topic || '查看详情';
+  const counts = {
+    章节: (event.chapters || []).length,
+    角色: (event.roles || []).length,
+    行动: (actionsByEvent[event.id] || []).length,
+    观点: (quotesByEvent[event.id] || []).length
+  };
   return `<a class="event-card" href="#${event.id}">
     <div>
       <time>${event.date || '未标日期'} · ${event.city}</time>
@@ -445,38 +476,62 @@ function eventCard(event){
       <div class="meta"><span class="pill gold">${event.status}</span>${tags}</div>
     </div>
     <p><strong>嘉宾：</strong>${event.speaker || '未标注'}</p>
-    <p><strong>主题：</strong>${event.topic || event.summary || '查看纪要详情'}</p>
+    <p class="event-summary"><strong>可带走：</strong>${firstTakeaway}</p>
+    <div class="event-counts">${Object.entries(counts).map(([label,value])=>`<span>${value}<br>${label}</span>`).join('')}</div>
   </a>`;
 }
 
 function quoteCard(q){
-  return `<article class="quote-card"><blockquote>${q.quote || ''}</blockquote><div><div class="tag">${q.theme || '金句'}</div><p>${q.note || ''}</p></div></article>`;
+  const event = byEvent[q.event_id] || {};
+  return `<article class="quote-card"><blockquote>${q.quote || ''}</blockquote><div><div class="tag">${q.theme || '观点卡'}</div><p>${q.note || ''}</p>${q.event_id ? `<p><a href="#${q.event_id}">查看来源：${event.title || q.event_id}</a></p>` : ''}</div></article>`;
+}
+
+function globalInsights(){
+  return [
+    ['不要把会议当素材库', '每场会都先抽出“判断、角色、章节、行动、观点卡”，读者可以先拿结论，再回到原始纪要核对。'],
+    ['AI 企服是最密集主线', '培训、案例库、工具、陪跑、自动化交付反复出现，关键不只是会 AI，而是能帮客户降本、增效或成交。'],
+    ['项目诊断要看角色', '广州场里大量价值藏在“谁在做什么、卡在哪里、被建议怎么改”，所以单场页新增关键角色与项目拆解。'],
+    ['行动要足够具体', '行动计划从 64 条扩展为更细的验证、获客、定价、招聘、内容、交付动作，并按优先级和主题聚合。'],
+    ['观点卡要承担传播', '金句墙不再只取少量 Notable quotes，也抽取会议里的判断句，适合快速复盘和截图转发。'],
+    ['原文是证据，不是首页', '完整整理稿保留在单场底部，用来核对上下文；页面上半部分负责帮读者学习和行动。']
+  ];
 }
 
 function renderHome(){
   crumb.textContent = '会议洞察总览';
   const readable = events.filter(e => e.status !== 'link-only').length;
   const latest = [...events].filter(e => e.date).sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0, 6);
+  const chapterTotal = events.reduce((sum,event)=>sum + (event.chapters || []).length, 0);
+  const roleTotal = events.reduce((sum,event)=>sum + (event.roles || []).length, 0);
+  const highActions = actions.filter(item => item.priority === '高').slice(0, 6);
   app.innerHTML = `
     <section class="hero">
       <div class="eyebrow">SCAI Meeting Wiki 2026</div>
-      <h2>把线下分享会，整理成可查、可读、可执行的创业资料库。</h2>
+      <h2>把 34 场创业复盘，拆成可学习、可执行的知识库。</h2>
       <p class="hero-lead">${config.subtitle}</p>
       <div class="metric-grid">
         <div class="metric"><strong>${events.length}</strong><span>会议与活动条目，覆盖深圳子页面与广州资料合集</span></div>
-        <div class="metric"><strong>${readable}</strong><span>已拉取正文或 AI 纪要的可读条目</span></div>
-        <div class="metric"><strong>${Object.keys(tagCounts).length}</strong><span>主题标签，包含 AI、企服、跨境、电商、内容等</span></div>
-        <div class="metric"><strong>${actions.length}</strong><span>从纪要中抽取的行动项与后续计划</span></div>
+        <div class="metric"><strong>${chapterTotal}</strong><span>智能章节，按时间线回到具体讨论点</span></div>
+        <div class="metric"><strong>${roleTotal}</strong><span>关键角色与项目卡点，尤其适合看项目诊断</span></div>
+        <div class="metric"><strong>${actions.length}</strong><span>行动项，覆盖获客、定价、交付、招聘、内容和调研</span></div>
       </div>
     </section>
     <section class="section">
-      <h3>先看四个判断</h3>
+      <h3>先看六个判断</h3>
       <div class="insight-grid">
-        <article class="insight"><h4>资料库不是收藏夹</h4><p>每场会都整理成摘要、关键章节、决策、行动项和原始链接，方便复盘和转发。</p></article>
-        <article class="insight"><h4>深圳适合逐场深读</h4><p>深圳源是子页面树，多数页面包含完整 AI 纪要、章节、决策和金句。</p></article>
-        <article class="insight"><h4>广州适合做索引导航</h4><p>广州源是活动合集，部分场次有飞书纪要，部分是录音卡片、PPT 或外部资料。</p></article>
-        <article class="insight"><h4>行动计划单独沉淀</h4><p>把“听过了”变成“下一步做什么”，聚合出可执行的主题清单。</p></article>
+        ${globalInsights().map(([title,detail])=>`<article class="insight"><h4>${title}</h4><p>${detail}</p></article>`).join('')}
       </div>
+    </section>
+    <section class="section">
+      <h3>7 天优先行动</h3>
+      <p class="section-intro">先从高优先级里选一条验证，不要把资料库变成新的收藏压力。</p>
+      <div class="action-board">${highActions.map(action => `
+        <article class="action-card">
+          <time>${action.priority || '中'} · ${action.city || ''} · ${action.theme || ''}</time>
+          <h4>${action.title || action.owner || '行动项'}</h4>
+          <p><strong>${action.owner || '相关成员'}</strong><br>${action.detail || ''}</p>
+        </article>
+      `).join('')}</div>
     </section>
     <section class="section visual-grid">
       <div class="panel"><h4>城市分布</h4>${barChart(cityCounts)}</div>
@@ -488,7 +543,7 @@ function renderHome(){
     </section>
     <section class="section">
       <h3>传播摘录</h3>
-      <div class="quote-wall">${quotes.slice(0, 3).map(quoteCard).join('')}</div>
+      <div class="quote-wall">${quotes.slice(0, 6).map(quoteCard).join('')}</div>
     </section>
   `;
 }
@@ -496,7 +551,7 @@ function renderHome(){
 function renderMeetingMap(){
   return `<section class="section">
     <h3>会议地图</h3>
-    <p class="section-intro">按城市、状态、主题、嘉宾和标题筛选。深圳侧更偏完整纪要，广州侧更偏资料索引和原始链接。</p>
+    <p class="section-intro">按城市、状态、主题、嘉宾和标题筛选。每张卡片都显示章节、角色、行动和观点卡数量，点进去先看二次整理，再看完整整理稿。</p>
     <div class="tools">
       <input id="eventFilter" placeholder="筛选标题、嘉宾、主题、标签..." />
       <select id="cityFilter"><option value="">全部城市</option>${Object.keys(cityCounts).map(s=>`<option>${s}</option>`).join('')}</select>
@@ -519,7 +574,7 @@ function wireMeetingMap(){
   const refresh = () => {
     const keyword = q.value.trim().toLowerCase();
     const items = events.filter(event => {
-      const hay = `${event.title} ${event.speaker} ${event.topic} ${event.summary} ${(event.tags||[]).join(' ')}`.toLowerCase();
+      const hay = `${event.title} ${event.speaker} ${event.topic} ${event.summary} ${(event.tags||[]).join(' ')} ${(event.key_takeaways||[]).join(' ')} ${(event.roles||[]).map(role=>`${role.name} ${role.role} ${role.advice}`).join(' ')}`.toLowerCase();
       return (!keyword || hay.includes(keyword)) && (!city.value || event.city === city.value) && (!status.value || event.status === status.value);
     });
     grid.innerHTML = items.length ? items.map(eventCard).join('') : '<div class="empty">没有匹配的会议。换一个关键词试试。</div>';
@@ -528,14 +583,37 @@ function wireMeetingMap(){
 }
 
 function renderActionDashboard(){
+  const byPriority = ['高','中','低'].map(priority => [priority, actions.filter(item => (item.priority || '中') === priority).slice(0, 10)]);
+  const byTheme = actions.reduce((acc,item) => {
+    const key = item.theme || '其他';
+    (acc[key] ||= []).push(item);
+    return acc;
+  }, {});
+  const themeBlocks = Object.entries(byTheme).sort((a,b)=>b[1].length-a[1].length).slice(0, 6);
   return `<section class="section">
     <h3>行动计划</h3>
-    <p class="section-intro">行动项来自各场纪要中的后续计划、关键决策和待办。优先看高优先级，再回到对应会议页读上下文。</p>
+    <p class="section-intro">行动项来自待办、项目建议、关键决策和章节判断。先看高优先级，再按主题回到对应会议页读上下文。</p>
+    <div class="action-lanes">${byPriority.map(([priority,items]) => `
+      <div class="action-lane">
+        <h4>${priority}优先级 · ${actions.filter(item => (item.priority || '中') === priority).length} 条</h4>
+        <ol>${items.map(item => `<li><a href="#${item.event_id}">${item.title}</a>：${item.detail}</li>`).join('')}</ol>
+      </div>
+    `).join('')}</div>
+  </section>
+  <section class="section">
+    <h3>按主题推进</h3>
+    <div class="insight-grid">${themeBlocks.map(([theme,items])=>`
+      <article class="insight"><h4>${theme} · ${items.length} 条</h4><p>${items.slice(0,4).map(item=>`${item.title}：${item.detail}`).join('；')}</p></article>
+    `).join('')}</div>
+  </section>
+  <section class="section">
+    <h3>全部行动项</h3>
     <div class="action-board">${actions.map(action => `
       <article class="action-card">
-        <time>${action.priority || '中'} · ${action.city || ''}</time>
+        <time>${action.priority || '中'} · ${action.city || ''} · ${action.theme || ''}</time>
         <h4>${action.title || action.owner || '行动项'}</h4>
         <p><strong>${action.owner || '相关成员'}</strong><br>${action.detail || ''}</p>
+        <p><a href="#${action.event_id}">回到来源会议</a></p>
       </article>
     `).join('')}</div>
   </section>`;

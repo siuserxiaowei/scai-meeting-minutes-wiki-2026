@@ -4,12 +4,13 @@
 > 计划发布地址：<https://siuserxiaowei.github.io/scai-meeting-minutes-wiki-2026/>
 > 飞书内部索引：<https://vi8r050ecuz.feishu.cn/docx/ZWjLdfp5koixFkxWOdQcKirLndc>
 
-本仓库把两个飞书 Wiki 来源整理成可检索、可复盘、可传播的静态站：会议地图、单场纪要、行动计划、主题矩阵、金句墙和来源权限说明。
+本仓库把两个飞书 Wiki 来源整理成可检索、可复盘、可传播的静态站：会议地图、单场纪要、关键角色、智能章节、行动计划、主题矩阵、金句墙和来源权限说明。
 
 ## 本地构建
 
 ```bash
 python3 site/import_lark.py
+python3 site/enrich_content.py
 python3 site/build.py
 python3 -m http.server 8123
 ```
